@@ -24,7 +24,14 @@ const REVIEWS = [
   { nombre: 'Olena Liubiieva', stars: 5, tiempo: 'Esta semana', texto: 'Excelente profesional. Rápido, honesto y muy eficaz. Trabajo impecable y trato inmejorable. Lo recomiendo al 100%.', foto: 'https://lh3.googleusercontent.com/a-/ALV-UjVJM-nOCzu2afhH0-fr5i8JnEB_-V9Ju27Ye3CRLWsF3xAbv2s=s128-c0x00000000-cc-rp-mo', iniciales: 'OL' },
 ]
 
-const ZONAS = ['Pamplona','Barañáin','Burlada','Huarte','Villava','Ansoáin','Zizur Mayor','Berriozar','Cizur','Noáin','Sarriguren','Beriáin','Estella','Tudela']
+const ZONAS = [
+  // Pamplona y comarca
+  'Pamplona','Barañáin','Burlada','Huarte','Villava','Ansoáin','Zizur Mayor','Berriozar','Cizur','Noáin','Sarriguren','Beriáin','Orkoien','Galar',
+  // Navarra media y ribera
+  'Tudela','Estella','Tafalla','Olite','Sangüesa','Aoiz','Peralta','Lodosa','Milagro','Caparroso','Falces','Marcilla',
+  // Navarra norte
+  'Alsasua','Irurtzun','Lekunberri','Baztan','Elizondo','Lesaka','Bera','Santesteban',
+]
 
 const MARCAS = [
   { nombre: 'Siemens',    logo: '/logos/siemens.svg', w: 110 },
@@ -591,7 +598,7 @@ if (track && dots.length) {
   <div style="max-width:900px;margin:0 auto;padding:0 24px;text-align:center;">
     <span class="section-label">Contacto</span>
     <h2 class="section-title" style="margin-bottom:16px;">¿Electrodoméstico averiado?<br/>Llámanos o escríbenos.</h2>
-    <p style="color:#64748b;line-height:1.8;margin-bottom:56px;max-width:520px;margin-left:auto;margin-right:auto;">Respondemos rápido. Lunes a sábado de 8:00 a 20:00. Atendemos toda Navarra.</p>
+    <p style="color:#64748b;line-height:1.8;margin-bottom:56px;max-width:520px;margin-left:auto;margin-right:auto;">Respondemos rápido. Todos los días de 8:00 a 20:00, festivos incluidos. Atendemos toda Navarra.</p>
 
     <div style="display:flex;flex-wrap:wrap;gap:20px;justify-content:center;margin-bottom:56px;">
       <!-- Teléfono -->
@@ -604,7 +611,7 @@ if (track && dots.length) {
         <div style="text-align:left;">
           <div style="color:#94a3b8;font-size:.7rem;font-weight:700;text-transform:uppercase;letter-spacing:.08em;margin-bottom:4px;">Llamar ahora</div>
           <div style="color:#0f172a;font-size:1.35rem;font-weight:900;letter-spacing:-.01em;">{PHONE}</div>
-          <div style="color:#64748b;font-size:.75rem;margin-top:2px;">Lun – Sáb · 8:00 a 20:00</div>
+          <div style="color:#64748b;font-size:.75rem;margin-top:2px;">Todos los días · 8:00–20:00</div>
         </div>
       </a>
 
@@ -626,7 +633,7 @@ if (track && dots.length) {
     <!-- Info adicional -->
     <div style="display:flex;flex-wrap:wrap;justify-content:center;gap:24px;">
       {[
-        ['Lun – Sáb · 8:00 a 20:00', 'M12 2a10 10 0 1 0 0 20A10 10 0 0 0 12 2zm.5 5v6l4 2-.7 1.2L11 14V7h1.5z'],
+        ['Todos los días · 8:00–20:00', 'M12 2a10 10 0 1 0 0 20A10 10 0 0 0 12 2zm.5 5v6l4 2-.7 1.2L11 14V7h1.5z'],
         ['Pamplona y toda Navarra', 'M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z'],
         ['Disponible festivos y fines de semana', 'M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z'],
       ].map(([txt, path]) => (
@@ -661,7 +668,7 @@ if (track && dots.length) {
         { q: '¿Reparáis electrodomésticos Siemens en Pamplona?', a: 'Sí, somos especialistas en Siemens, Bosch y Balay en Pamplona y toda Navarra. También reparamos Miele, AEG, Electrolux, Samsung, LG, Fagor, Beko y más marcas.' },
         { q: '¿Cuánto tarda la reparación?', a: 'El 90% de los casos se resuelven en la primera visita a domicilio. Trabajamos con piezas de repuesto de calidad y un amplio stock para no hacer esperar.' },
         { q: '¿Trabajáis festivos y fines de semana?', a: 'Sí. Disponibles los 365 días del año, incluyendo festivos y fines de semana. Un electrodoméstico averiado no entiende de calendarios.' },
-        { q: '¿A qué zonas de Navarra llegáis?', a: 'Cubrimos Pamplona y toda el área metropolitana: Barañáin, Burlada, Huarte, Villava, Ansoáin, Zizur Mayor, Berriozar, Cizur, Noáin, Sarriguren y más.' },
+        { q: '¿A qué zonas de Navarra llegáis?', a: 'Cubrimos toda la Comunidad Foral de Navarra: Pamplona y su comarca (Barañáin, Burlada, Huarte, Villava, Zizur Mayor, Berriozar…), la Navarra media (Tafalla, Olite, Estella, Sangüesa), la Ribera (Tudela, Peralta, Lodosa, Caparroso) y la zona norte (Alsasua, Irurtzun, Baztan, Elizondo, Bera). Si no ves tu municipio, llámanos.' },
       ].map(faq => (
         <details style="background:#f8fafc;border-radius:16px;border:1.5px solid #e2e8f0;overflow:hidden;" class="group">
           <summary style="padding:20px 24px;font-weight:700;color:#0f172a;cursor:pointer;display:flex;justify-content:space-between;align-items:center;font-size:.95rem;list-style:none;">
