@@ -8,24 +8,24 @@ interface Props {
 }
 
 const {
-  title = 'Reparación de Electrodomésticos en Pamplona | Domestecnic',
+  title = 'Reparación de Electrodomésticos en Pamplona | Servitec Nafarroa',
   description = 'Servicio técnico especializado en reparación de electrodomésticos en Pamplona y Navarra. Siemens, Bosch, Balay y más marcas. Visita a domicilio. Presupuesto gratuito. Reserva online.',
-  canonical = 'https://domestecnic.com',
+  canonical = 'https://servitecnafarroa.com',
 } = Astro.props
 
-const ogImage = 'https://domestecnic.com/og-image.png'
+const ogImage = 'https://servitecnafarroa.com/og-image.png'
 
 const jsonLd = {
   "@context": "https://schema.org",
   "@graph": [
     {
       "@type": "LocalBusiness",
-      "@id": "https://domestecnic.com/#business",
-      "name": "Domestecnic",
-      "alternateName": "Domestecnic Servicio Técnico Pamplona",
+      "@id": "https://servitecnafarroa.com/#business",
+      "name": "Servitec Nafarroa",
+      "alternateName": "Servitec Nafarroa Servicio Técnico Pamplona",
       "description": "Servicio técnico especializado en reparación de electrodomésticos en Pamplona y Navarra. Especialistas en Siemens, Bosch y Balay.",
-      "url": "https://domestecnic.com",
-      "telephone": "+34634358045",
+      "url": "https://servitecnafarroa.com",
+      "telephone": "+34634006304",
       "priceRange": "€€",
       "image": ogImage,
       "logo": ogImage,
@@ -58,7 +58,7 @@ const jsonLd = {
         }
       ],
       "sameAs": [
-        "https://www.domestecnic.com"
+        "https://www.servitecnafarroa.com"
       ],
       "hasOfferCatalog": {
         "@type": "OfferCatalog",
@@ -133,14 +133,14 @@ const jsonLd = {
     },
     {
       "@type": "WebSite",
-      "@id": "https://domestecnic.com/#website",
-      "url": "https://domestecnic.com",
-      "name": "Domestecnic",
+      "@id": "https://servitecnafarroa.com/#website",
+      "url": "https://servitecnafarroa.com",
+      "name": "Servitec Nafarroa",
       "description": "Servicio técnico de electrodomésticos en Pamplona y Navarra",
       "inLanguage": "es-ES",
       "potentialAction": {
         "@type": "SearchAction",
-        "target": "https://domestecnic.com/?s={search_term_string}",
+        "target": "https://servitecnafarroa.com/?s={search_term_string}",
         "query-input": "required name=search_term_string"
       }
     }
@@ -156,7 +156,7 @@ const jsonLd = {
     <meta name="description" content={description} />
     <link rel="canonical" href={canonical} />
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
-    <meta name="author" content="Domestecnic" />
+    <meta name="author" content="Servitec Nafarroa" />
     <meta name="geo.region" content="ES-NC" />
     <meta name="geo.placename" content="Pamplona, Navarra" />
     <meta name="geo.position" content="42.8169;-1.6432" />
@@ -173,16 +173,16 @@ const jsonLd = {
     <meta property="og:image" content={ogImage} />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
-    <meta property="og:image:alt" content="Domestecnic - Reparación de electrodomésticos en Pamplona" />
+    <meta property="og:image:alt" content="Servitec Nafarroa - Reparación de electrodomésticos en Pamplona" />
     <meta property="og:locale" content="es_ES" />
-    <meta property="og:site_name" content="Domestecnic" />
+    <meta property="og:site_name" content="Servitec Nafarroa" />
 
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content={title} />
     <meta name="twitter:description" content={description} />
     <meta name="twitter:image" content={ogImage} />
-    <meta name="twitter:image:alt" content="Domestecnic - Reparación de electrodomésticos en Pamplona" />
+    <meta name="twitter:image:alt" content="Servitec Nafarroa - Reparación de electrodomésticos en Pamplona" />
 
     <!-- WhatsApp / Telegram preview -->
     <meta property="og:image:type" content="image/png" />
