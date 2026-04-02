@@ -1,9 +1,10 @@
 @import "tailwindcss";
+@import '@fontsource-variable/plus-jakarta-sans';
 
 * { box-sizing: border-box; scroll-behavior: smooth; }
 
 body {
-  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-family: 'Plus Jakarta Sans Variable', sans-serif;
   background: #fff;
   color: #111827;
   -webkit-font-smoothing: antialiased;
