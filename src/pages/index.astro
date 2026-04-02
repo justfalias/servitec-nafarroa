@@ -370,8 +370,29 @@ const MARCAS = [
   </div>
 </section>
 
+<!-- MARCAS -->
+<section style="padding:48px 0;background:#f8fafc;border-top:1px solid #f1f5f9;border-bottom:1px solid #f1f5f9;">
+  <div style="max-width:1200px;margin:0 auto;padding:0 24px;">
+    <p style="text-align:center;color:#94a3b8;font-weight:700;font-size:.65rem;letter-spacing:.16em;text-transform:uppercase;margin-bottom:32px;">Reparamos todas las marcas</p>
+    <div style="display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:16px;">
+      {MARCAS.map(m => (
+        m.logo ? (
+          <div style="background:white;border:1.5px solid #e2e8f0;border-radius:14px;padding:12px 24px;display:flex;align-items:center;">
+            <img src={m.logo} alt={m.nombre} height="32" style="height:32px;object-fit:contain;" loading="lazy" />
+          </div>
+        ) : (
+          <div style="background:white;border:1.5px solid #e2e8f0;border-radius:14px;padding:12px 20px;display:flex;align-items:center;gap:8px;">
+            <img src={`https://www.google.com/s2/favicons?domain=${m.favicon}&sz=64`} alt={m.nombre} width="20" height="20" style="border-radius:4px;" loading="lazy" />
+            <span style="font-weight:600;color:#475569;font-size:.85rem;">{m.nombre}</span>
+          </div>
+        )
+      ))}
+    </div>
+  </div>
+</section>
+
 <!-- ABOUT -->
-<section class="about-section" style="padding:96px 0;background:#f8fafc;" id="nosotros">
+<section class="about-section" style="padding:96px 0;background:white;" id="nosotros">
   <div style="max-width:1200px;margin:0 auto;padding:0 24px;">
     <div class="about-grid" style="display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:center;">
       <div style="position:relative;">
@@ -414,27 +435,6 @@ const MARCAS = [
           ))}
         </div>
       </div>
-    </div>
-  </div>
-</section>
-
-<!-- MARCAS -->
-<section style="padding:48px 0;background:#f8fafc;border-top:1px solid #f1f5f9;border-bottom:1px solid #f1f5f9;">
-  <div style="max-width:1200px;margin:0 auto;padding:0 24px;">
-    <p style="text-align:center;color:#94a3b8;font-weight:700;font-size:.65rem;letter-spacing:.16em;text-transform:uppercase;margin-bottom:32px;">Reparamos todas las marcas</p>
-    <div style="display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:16px;">
-      {MARCAS.map(m => (
-        m.logo ? (
-          <div style="background:white;border:1.5px solid #e2e8f0;border-radius:14px;padding:12px 24px;display:flex;align-items:center;">
-            <img src={m.logo} alt={m.nombre} height="32" style="height:32px;object-fit:contain;" loading="lazy" />
-          </div>
-        ) : (
-          <div style="background:white;border:1.5px solid #e2e8f0;border-radius:14px;padding:12px 20px;display:flex;align-items:center;gap:8px;">
-            <img src={`https://www.google.com/s2/favicons?domain=${m.favicon}&sz=64`} alt={m.nombre} width="20" height="20" style="border-radius:4px;" loading="lazy" />
-            <span style="font-weight:600;color:#475569;font-size:.85rem;">{m.nombre}</span>
-          </div>
-        )
-      ))}
     </div>
   </div>
 </section>
