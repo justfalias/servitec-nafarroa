@@ -1,0 +1,220 @@
+---
+import Layout from '../layouts/Layout.astro'
+import { ELECTRODOMESTICOS } from '../data/electrodomesticos'
+
+export async function getStaticPaths() {
+  return ELECTRODOMESTICOS.map(e => ({ params: { electrodomestico: e.slug }, props: e }))
+}
+
+const PHONE = '634 006 304'
+const PHONE_HREF = 'tel:+34634006304'
+const WA_URL = 'https://wa.me/34634006304?text=Hola%2C%20necesito%20reparar%20un%20electrodom%C3%A9stico%20en%20Pamplona'
+const canonical = `https://www.servitecnafarroa.com/reparacion-${Astro.params.electrodomestico}-pamplona/`
+
+const { nombre, nombrePlural, title, description, h1, intro, sintomas, marcas, faq, imgAlt } = Astro.props
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://www.servitecnafarroa.com/#business",
+      "name": "Servitec Nafarroa",
+      "telephone": "+34634006304",
+      "url": "https://www.servitecnafarroa.com",
+      "areaServed": { "@type": "City", "name": "Pamplona" },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Pamplona",
+        "addressRegion": "Navarra",
+        "addressCountry": "ES"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": faq.map(f => ({
+        "@type": "Question",
+        "name": f.q,
+        "acceptedAnswer": { "@type": "Answer", "text": f.a }
+      }))
+    }
+  ]
+}
+---
+
+<Layout title={title} description={description} canonical={canonical}>
+<style is:global>
+  :root { --orange: #f97316; --blue: #1d4ed8; --dark: #0a0f1e; --mid: #111827; }
+  * { box-sizing: border-box; }
+  .btn-primary { display:inline-flex;align-items:center;gap:10px;background:var(--orange);color:white;font-weight:700;padding:16px 28px;border-radius:12px;font-size:1rem;text-decoration:none;transition:all .2s;box-shadow:0 6px 20px rgba(249,115,22,.35); }
+  .btn-primary:hover { background:#ea580c;transform:translateY(-2px); }
+  .btn-outline { display:inline-flex;align-items:center;gap:10px;background:transparent;color:white;font-weight:600;padding:16px 28px;border-radius:12px;font-size:1rem;text-decoration:none;border:1.5px solid rgba(255,255,255,.2);transition:all .2s; }
+  .btn-outline:hover { background:rgba(255,255,255,.08); }
+  .section-label { display:block;color:var(--orange);font-weight:700;font-size:.7rem;letter-spacing:.14em;text-transform:uppercase;margin-bottom:14px; }
+  @media (max-width:768px) {
+    .hero-inner { flex-direction:column !important; }
+    .hero-inner h1 { font-size:clamp(1.9rem,8vw,3rem) !important; }
+    .cta-row { flex-direction:column !important; }
+    .cta-row a { width:100% !important;justify-content:center !important; }
+    .sintomas-grid { grid-template-columns:1fr !important; }
+    .marcas-grid { grid-template-columns:repeat(3,1fr) !important; }
+    .faq-cols { grid-template-columns:1fr !important; }
+  }
+</style>
+
+<script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
+
+<!-- NAV -->
+<header style="position:sticky;top:0;z-index:50;background:white;border-bottom:1px solid #f1f5f9;">
+  <div style="max-width:1200px;margin:0 auto;padding:0 24px;height:68px;display:flex;align-items:center;justify-content:space-between;">
+    <a href="/" style="display:flex;align-items:center;gap:12px;text-decoration:none;">
+      <div style="width:40px;height:40px;background:var(--blue);border-radius:12px;display:flex;align-items:center;justify-content:center;">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.2" stroke-linecap="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
+      </div>
+      <div>
+        <div style="font-size:1.05rem;font-weight:900;line-height:1;letter-spacing:-.01em;">
+          <span style="color:var(--blue);">SERVITEC</span> <span style="color:var(--orange);">NAFARROA</span>
+        </div>
+        <div style="font-size:.6rem;color:#94a3b8;letter-spacing:.08em;text-transform:uppercase;margin-top:2px;">Servicio técnico · Pamplona</div>
+      </div>
+    </a>
+    <div style="display:flex;align-items:center;gap:8px;">
+      <a href={PHONE_HREF} style="color:#0f172a;font-size:.875rem;font-weight:700;padding:8px 12px;text-decoration:none;display:flex;align-items:center;gap:6px;" data-cta="llamar" data-location="nav">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 13.6a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.61 3h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 10.6a16 16 0 0 0 6 6l.96-.96a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 21.66 18l.26-1.08z"/></svg>
+        {PHONE}
+      </a>
+      <a href={WA_URL} target="_blank" rel="noopener" style="display:flex;align-items:center;gap:7px;background:#22c55e;color:white;font-size:.875rem;font-weight:700;padding:9px 16px;border-radius:10px;text-decoration:none;" data-cta="whatsapp" data-location="nav">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/></svg>
+        WhatsApp
+      </a>
+    </div>
+  </div>
+</header>
+
+<!-- HERO -->
+<section style="background:#0a0f1e;padding:80px 24px;position:relative;overflow:hidden;">
+  <div style="position:absolute;inset:0;background-image:radial-gradient(rgba(255,255,255,.02) 1px,transparent 1px);background-size:28px 28px;pointer-events:none;"></div>
+  <div style="max-width:1200px;margin:0 auto;position:relative;">
+    <div style="display:inline-flex;align-items:center;gap:8px;background:rgba(249,115,22,.12);border:1px solid rgba(249,115,22,.25);border-radius:100px;padding:6px 16px;margin-bottom:28px;">
+      <span style="color:var(--orange);font-size:.75rem;font-weight:700;text-transform:uppercase;letter-spacing:.1em;">Pamplona · Navarra · 365 días</span>
+    </div>
+    <h1 style="font-size:clamp(2rem,5vw,4rem);font-weight:900;color:white;line-height:1.1;letter-spacing:-.03em;margin-bottom:20px;max-width:800px;">{h1}</h1>
+    <p style="font-size:1.1rem;color:#94a3b8;line-height:1.8;margin-bottom:40px;max-width:560px;">{intro}</p>
+    <div class="cta-row" style="display:flex;gap:12px;flex-wrap:wrap;">
+      <a href={PHONE_HREF} class="btn-primary" data-cta="llamar" data-location="hero">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 13.6a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.61 3h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 10.6a16 16 0 0 0 6 6l.96-.96a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 21.66 18l.26-1.08z"/></svg>
+        Llamar ahora — {PHONE}
+      </a>
+      <a href={WA_URL} target="_blank" rel="noopener" class="btn-outline" data-cta="whatsapp" data-location="hero">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/></svg>
+        Escribir por WhatsApp
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- SÍNTOMAS -->
+<section style="padding:80px 24px;background:white;">
+  <div style="max-width:1200px;margin:0 auto;">
+    <span class="section-label">Averías habituales</span>
+    <h2 style="font-size:clamp(1.75rem,3.5vw,2.5rem);font-weight:900;color:#0a0f1e;letter-spacing:-.03em;margin-bottom:40px;">¿Qué le pasa a tu {nombre.toLowerCase()}?</h2>
+    <div class="sintomas-grid" style="display:grid;grid-template-columns:repeat(2,1fr);gap:16px;margin-bottom:48px;">
+      {sintomas.map(s => (
+        <div style="display:flex;align-items:flex-start;gap:12px;padding:16px 20px;background:#f8fafc;border-radius:14px;border:1px solid #e2e8f0;">
+          <div style="width:20px;height:20px;background:#fef3c7;border-radius:6px;display:flex;align-items:center;justify-content:center;flex-shrink:0;margin-top:1px;">
+            <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="#d97706" stroke-width="2.5" stroke-linecap="round"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+          </div>
+          <span style="color:#374151;font-size:.9rem;font-weight:500;line-height:1.5;">{s}</span>
+        </div>
+      ))}
+    </div>
+    <div style="background:linear-gradient(135deg,var(--blue),#1e40af);border-radius:20px;padding:32px 36px;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:24px;">
+      <div>
+        <p style="color:white;font-size:1.15rem;font-weight:800;margin-bottom:6px;">¿Tu {nombre.toLowerCase()} tiene alguno de estos problemas?</p>
+        <p style="color:rgba(255,255,255,.7);font-size:.9rem;">Llámanos y venimos hoy mismo. Diagnóstico a domicilio.</p>
+      </div>
+      <a href={PHONE_HREF} class="btn-primary" data-cta="llamar" data-location="sintomas">Llamar: {PHONE}</a>
+    </div>
+  </div>
+</section>
+
+<!-- MARCAS -->
+<section style="padding:64px 24px;background:#f8fafc;">
+  <div style="max-width:1200px;margin:0 auto;">
+    <span class="section-label">Marcas que reparamos</span>
+    <h2 style="font-size:clamp(1.5rem,3vw,2rem);font-weight:900;color:#0a0f1e;letter-spacing:-.03em;margin-bottom:32px;">Reparamos {nombrePlural.toLowerCase()} de todas las marcas</h2>
+    <div class="marcas-grid" style="display:grid;grid-template-columns:repeat(4,1fr);gap:12px;">
+      {marcas.map(m => (
+        <div style="background:white;border:1px solid #e2e8f0;border-radius:12px;padding:14px 16px;text-align:center;font-weight:700;font-size:.9rem;color:#374151;">{m}</div>
+      ))}
+    </div>
+  </div>
+</section>
+
+<!-- POR QUÉ NOSOTROS -->
+<section style="padding:80px 24px;background:white;">
+  <div style="max-width:1200px;margin:0 auto;">
+    <span class="section-label">Por qué elegirnos</span>
+    <h2 style="font-size:clamp(1.75rem,3.5vw,2.5rem);font-weight:900;color:#0a0f1e;letter-spacing:-.03em;margin-bottom:40px;">Técnicos de confianza en Pamplona</h2>
+    <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:24px;" class="why-grid">
+      {[
+        ['365 días', 'Disponibles todos los días del año, incluidos festivos y fines de semana, de 8:00 a 20:00.', '#eff6ff', 'var(--blue)'],
+        ['Mismo día', 'En la mayoría de casos podemos ir el mismo día. Llamada → diagnóstico → reparación.', '#fef3c7', '#d97706'],
+        ['Presupuesto cerrado', 'Te decimos el precio exacto antes de empezar. Sin sorpresas al final.', '#f0fdf4', '#16a34a'],
+      ].map(([tit, desc, bg, col]) => (
+        <div style={`background:${bg};border-radius:16px;padding:28px 24px;`}>
+          <p style={`font-weight:900;font-size:1.1rem;color:${col};margin-bottom:8px;`}>{tit}</p>
+          <p style="color:#475569;font-size:.875rem;line-height:1.7;">{desc}</p>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section style="padding:80px 24px;background:#f8fafc;">
+  <div style="max-width:1200px;margin:0 auto;">
+    <span class="section-label">Preguntas frecuentes</span>
+    <h2 style="font-size:clamp(1.75rem,3.5vw,2.5rem);font-weight:900;color:#0a0f1e;letter-spacing:-.03em;margin-bottom:40px;">Preguntas sobre reparación de {nombrePlural.toLowerCase()} en Pamplona</h2>
+    <div class="faq-cols" style="display:grid;grid-template-columns:repeat(2,1fr);gap:16px;">
+      {faq.map(f => (
+        <div style="background:white;border:1px solid #e2e8f0;border-radius:16px;padding:28px;">
+          <p style="font-weight:800;color:#0f172a;margin-bottom:12px;font-size:.95rem;">{f.q}</p>
+          <p style="color:#64748b;font-size:.875rem;line-height:1.75;">{f.a}</p>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>
+
+<!-- CTA FINAL -->
+<section style="padding:80px 24px;background:var(--dark);text-align:center;">
+  <div style="max-width:600px;margin:0 auto;">
+    <h2 style="font-size:clamp(1.75rem,4vw,2.75rem);font-weight:900;color:white;letter-spacing:-.03em;margin-bottom:16px;">¿{nombre} averiado/a?<br/>Te ayudamos hoy.</h2>
+    <p style="color:#64748b;margin-bottom:36px;font-size:1rem;">Servicio a domicilio en Pamplona y toda Navarra. 365 días, festivos incluidos.</p>
+    <div class="cta-row" style="display:flex;gap:12px;flex-wrap:wrap;justify-content:center;">
+      <a href={PHONE_HREF} class="btn-primary" data-cta="llamar" data-location="cta-final">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 13.6a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.61 3h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 10.6a16 16 0 0 0 6 6l.96-.96a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 21.66 18l.26-1.08z"/></svg>
+        Llamar ahora
+      </a>
+      <a href={WA_URL} target="_blank" rel="noopener" class="btn-outline" data-cta="whatsapp" data-location="cta-final">WhatsApp</a>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer style="background:#020617;padding:32px 24px;text-align:center;">
+  <div style="max-width:1200px;margin:0 auto;">
+    <div style="margin-bottom:16px;">
+      <span style="font-weight:900;color:var(--blue);font-size:1.1rem;">SERVITEC</span> <span style="font-weight:900;color:var(--orange);font-size:1.1rem;">NAFARROA</span>
+      <p style="color:#334155;font-size:.8rem;margin-top:4px;">Reparación de electrodomésticos · Pamplona, Navarra</p>
+    </div>
+    <div style="display:flex;justify-content:center;gap:20px;margin-bottom:16px;flex-wrap:wrap;">
+      <a href={PHONE_HREF} style="color:#475569;font-size:.875rem;text-decoration:none;" data-cta="llamar" data-location="footer">{PHONE}</a>
+      <a href={WA_URL} target="_blank" rel="noopener" style="color:#475569;font-size:.875rem;text-decoration:none;" data-cta="whatsapp" data-location="footer">WhatsApp</a>
+      <a href="/" style="color:#475569;font-size:.875rem;text-decoration:none;">← Inicio</a>
+    </div>
+    <p style="color:#1e293b;font-size:.75rem;">© {new Date().getFullYear()} Servitec Nafarroa · Todos los derechos reservados</p>
+  </div>
+</footer>
+</Layout>
