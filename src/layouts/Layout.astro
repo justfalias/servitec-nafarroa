@@ -5,12 +5,14 @@ interface Props {
   title?: string
   description?: string
   canonical?: string
+  lcpImage?: string
 }
 
 const {
   title = 'Reparación de Electrodomésticos Pamplona | Servitec Nafarroa — +20 años, 365 días',
   description = 'Técnicos multimarca con +20 años de experiencia en Pamplona y toda Navarra. Reparamos Siemens, Bosch, Balay, Miele, AEG y más. Servicio a domicilio 365 días, festivos incluidos. Llámanos: 634 006 304.',
   canonical = 'https://www.servitecnafarroa.com/',
+  lcpImage = '/tecnico-hero.webp',
 } = Astro.props
 
 const ogImage = 'https://www.servitecnafarroa.com/og-image.png'
@@ -127,6 +129,8 @@ const jsonLd = {
     'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
     })(window,document,'script','dataLayer','GTM-MPRN8F5V');</script>
     <!-- End Google Tag Manager -->
+    <!-- Preload LCP image — must be as early as possible -->
+    <link rel="preload" as="image" href={lcpImage} fetchpriority="high" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>{title}</title>
@@ -172,9 +176,6 @@ const jsonLd = {
 
     <!-- Sitemap hint -->
     <link rel="sitemap" type="application/xml" href="/sitemap.xml" />
-
-    <!-- Preload LCP image -->
-    <link rel="preload" as="image" href="/tecnico-hero.webp" fetchpriority="high" />
 
   </head>
   <body>
