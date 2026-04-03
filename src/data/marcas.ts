@@ -522,4 +522,108 @@ export const MARCAS_SEO: Marca[] = [
       },
     ],
   },
+  {
+    slug: 'elica',
+    nombre: 'Elica',
+    title: 'Servicio Técnico Elica Pamplona | Servitec Nafarroa',
+    description: 'Técnico Elica en Pamplona y Navarra. Reparamos campanas extractoras Elica, motores, circuitos y mandos. Mismo día. Llama: 634 006 304.',
+    h1: 'Servicio técnico Elica en Pamplona',
+    intro: 'Elica es la marca italiana líder mundial en campanas extractoras de diseño. En Servitec Nafarroa reparamos todo tipo de campanas Elica en Pamplona y Navarra: desde modelos de pared y de isla hasta campanas planas integradas. Conocemos su electrónica, sus motores y sus sistemas de control para resolver cualquier avería.',
+    electrodomesticos: [
+      'Campanas extractoras Elica',
+      'Campanas de isla Elica',
+      'Campanas planas integradas Elica',
+      'Campanas telescópicas Elica',
+    ],
+    specialties: [
+      'Reparación de motores Elica originales',
+      'Sustitución de circuitos electrónicos Elica',
+      'Cambio de luces LED en campanas Elica',
+      'Reparación de mandos táctiles y mandos a distancia Elica',
+    ],
+    faq: [
+      {
+        q: '¿Reparáis campanas Elica de diseño y de isla?',
+        a: 'Sí, reparamos todos los modelos Elica independientemente del diseño: campanas de pared, isla, planas, telescópicas y de techo. Somos especialistas en la electrónica y los motores Elica.',
+      },
+      {
+        q: '¿Cuánto cuesta reparar una campana Elica en Pamplona?',
+        a: 'El diagnóstico cuesta 40 € + IVA. La reparación típica de una campana Elica (motor o electrónica) está entre 60 € y 130 €. Te damos presupuesto sin compromiso antes de comenzar.',
+      },
+      {
+        q: '¿Tenéis repuestos Elica originales?',
+        a: 'Trabajamos con repuestos originales y equivalentes homologados para campanas Elica. Solemos tener motores, circuitos y componentes de iluminación en stock para las reparaciones más habituales.',
+      },
+    ],
+  },
+  {
+    slug: 'daewoo',
+    nombre: 'Daewoo',
+    title: 'Servicio Técnico Daewoo Pamplona | Servitec Nafarroa',
+    description: 'Técnico Daewoo en Pamplona y Navarra. Reparamos lavadoras, frigoríficos, microondas y electrodomésticos Daewoo. Mismo día. Llama: 634 006 304.',
+    h1: 'Servicio técnico Daewoo en Pamplona',
+    intro: 'Daewoo es una marca coreana con una amplia gama de electrodomésticos del hogar. En Servitec Nafarroa reparamos lavadoras, frigoríficos, microondas y otros electrodomésticos Daewoo en Pamplona y toda Navarra. Nuestra experiencia con la electrónica coreana nos permite diagnosticar y reparar cualquier avería con eficacia.',
+    electrodomesticos: [
+      'Lavadoras Daewoo',
+      'Frigoríficos Daewoo',
+      'Microondas Daewoo',
+      'Lavavajillas Daewoo',
+      'Secadoras Daewoo',
+    ],
+    specialties: [
+      'Reparación de lavadoras Daewoo con error de desagüe',
+      'Diagnóstico de frigoríficos Daewoo que no enfría',
+      'Reparación de microondas Daewoo sin giro o sin calor',
+      'Cambio de rodamientos y escobillas en lavadoras Daewoo',
+    ],
+    faq: [
+      {
+        q: '¿Reparáis lavadoras Daewoo antiguas?',
+        a: 'Sí, reparamos lavadoras Daewoo de cualquier antigüedad. Contamos con acceso a repuestos originales y equivalentes, incluyendo modelos descatalogados.',
+      },
+      {
+        q: '¿Cuánto cuesta reparar un electrodoméstico Daewoo en Pamplona?',
+        a: 'El diagnóstico cuesta 40 € + IVA. El coste total depende de la avería, pero la mayoría de reparaciones están entre 55 € y 120 €. Siempre informamos del precio antes de actuar.',
+      },
+      {
+        q: '¿Disponéis de repuestos Daewoo?',
+        a: 'Sí, trabajamos con repuestos originales y compatibles homologados para electrodomésticos Daewoo. Gestionamos el pedido de piezas si no las tenemos en stock para minimizar tiempos de espera.',
+      },
+    ],
+  },
+  {
+    slug: 'aspes',
+    nombre: 'Aspes',
+    title: 'Servicio Técnico Aspes Pamplona | Servitec Nafarroa',
+    description: 'Técnico Aspes en Pamplona y Navarra. Reparamos lavadoras, lavavajillas y electrodomésticos Aspes. Mismo día. Llama: 634 006 304.',
+    h1: 'Servicio técnico Aspes en Pamplona',
+    intro: 'Aspes es una marca española de electrodomésticos con larga tradición en hogares navarros. En Servitec Nafarroa reparamos lavadoras, lavavajillas, frigoríficos y otros electrodomésticos Aspes en Pamplona y toda la Comunidad Foral. Conocemos bien estos aparatos y gestionamos piezas originales para cada reparación.',
+    electrodomesticos: [
+      'Lavadoras Aspes',
+      'Lavavajillas Aspes',
+      'Frigoríficos Aspes',
+      'Secadoras Aspes',
+      'Hornos Aspes',
+    ],
+    specialties: [
+      'Reparación de lavadoras Aspes con fugas de agua',
+      'Diagnóstico de lavavajillas Aspes que no lava correctamente',
+      'Reparación de frigoríficos Aspes que no enfría',
+      'Cambio de bomba de desagüe en lavadoras Aspes',
+    ],
+    faq: [
+      {
+        q: '¿Reparáis lavadoras Aspes en Pamplona?',
+        a: 'Sí, somos especialistas en reparación de lavadoras Aspes en Pamplona y toda Navarra. Atendemos cualquier avería: no centrifuga, pierde agua, hace ruido, no enciende.',
+      },
+      {
+        q: '¿Cuánto cuesta reparar un electrodoméstico Aspes?',
+        a: 'El diagnóstico cuesta 40 € + IVA. La reparación de electrodomésticos Aspes suele estar entre 55 € y 110 €. Te damos presupuesto antes de comenzar sin compromiso.',
+      },
+      {
+        q: '¿Tenéis repuestos Aspes originales?',
+        a: 'Trabajamos con repuestos originales Aspes y compatibles de calidad equivalente. Al ser una marca española, la disponibilidad de piezas es buena y los tiempos de espera reducidos.',
+      },
+    ],
+  },
 ]
