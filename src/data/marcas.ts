@@ -270,4 +270,256 @@ export const MARCAS_SEO: Marca[] = [
       },
     ],
   },
+  {
+    slug: 'electrolux',
+    nombre: 'Electrolux',
+    title: 'Servicio Técnico Electrolux Pamplona | Servitec Nafarroa',
+    description: 'Técnico Electrolux independiente en Pamplona y Navarra. Reparamos lavadoras, lavavajillas y electrodomésticos Electrolux. 365 días. Llama: 634 006 304.',
+    h1: 'Servicio técnico Electrolux en Pamplona',
+    intro: 'Electrolux es una marca sueca con décadas de historia en electrodomésticos de calidad. En Servitec Nafarroa reparamos electrodomésticos Electrolux en Pamplona y toda Navarra. Somos técnicos independientes con amplia experiencia en los modelos más recientes de esta marca, desde lavadoras SteamCare hasta frigoríficos FreshPlus.',
+    electrodomesticos: [
+      'Lavadoras Electrolux',
+      'Lavavajillas Electrolux',
+      'Frigoríficos Electrolux',
+      'Hornos Electrolux',
+      'Secadoras Electrolux',
+      'Placas Electrolux',
+      'Campanas Electrolux',
+    ],
+    specialties: [
+      'Reparación de lavadoras Electrolux PerfectCare',
+      'Diagnóstico en lavavajillas Electrolux AirDry',
+      'Reparación de hornos Electrolux SteamBake',
+      'Solución de errores E10, E20, E40 en lavadoras Electrolux',
+    ],
+    faq: [
+      {
+        q: '¿Sois el servicio técnico oficial de Electrolux en Pamplona?',
+        a: 'No somos SAT oficial. Somos técnicos independientes con más disponibilidad y precios más ajustados, disponibles 365 días al año.',
+      },
+      {
+        q: '¿Cuánto cuesta reparar un electrodoméstico Electrolux en Pamplona?',
+        a: 'El diagnóstico cuesta 40 € + IVA. Las reparaciones Electrolux suelen estar entre 60 € y 150 €, según la avería y el modelo.',
+      },
+      {
+        q: '¿Reparáis lavadoras Electrolux de carga superior?',
+        a: 'Sí, reparamos todos los modelos Electrolux: carga frontal, carga superior y lavadoras-secadoras combinadas.',
+      },
+    ],
+  },
+  {
+    slug: 'fagor',
+    nombre: 'Fagor',
+    title: 'Servicio Técnico Fagor Pamplona | Servitec Nafarroa',
+    description: 'Técnico Fagor en Pamplona y Navarra. Reparamos lavadoras, lavavajillas y electrodomésticos Fagor. Repuestos disponibles. 365 días. Llama: 634 006 304.',
+    h1: 'Servicio técnico Fagor en Pamplona',
+    intro: 'Fagor es una marca española de origen vasco con gran implantación en Navarra. Aunque la marca pasó por una reestructuración, seguimos reparando electrodomésticos Fagor en Pamplona y toda Navarra. Disponemos de repuestos para modelos de los últimos 15 años y conocemos a fondo su tecnología.',
+    electrodomesticos: [
+      'Lavadoras Fagor',
+      'Lavavajillas Fagor',
+      'Frigoríficos Fagor',
+      'Hornos Fagor',
+      'Vitrocerámicas Fagor',
+      'Campanas Fagor',
+    ],
+    specialties: [
+      'Disponemos de repuestos para modelos Fagor hasta 15 años de antigüedad',
+      'Reparación de lavadoras Fagor FET y FFT',
+      'Diagnóstico en lavavajillas Fagor LVF',
+      'Sustitución de termostatos y resistencias en hornos Fagor',
+    ],
+    faq: [
+      {
+        q: '¿Reparáis electrodomésticos Fagor antiguos?',
+        a: 'Sí, tenemos acceso a repuestos para modelos Fagor de hasta 15 años de antigüedad. A partir de cierta antigüedad puede ser difícil encontrar piezas, pero lo intentamos siempre.',
+      },
+      {
+        q: '¿Cuánto cuesta reparar un electrodoméstico Fagor en Pamplona?',
+        a: 'El diagnóstico a domicilio cuesta 40 € + IVA. Las reparaciones Fagor suelen estar entre 55 € y 130 €.',
+      },
+      {
+        q: '¿Dónde consigo repuestos para mi Fagor?',
+        a: 'Nosotros gestionamos los repuestos por ti. Si la pieza está disponible, la encargamos y te damos fecha para la reparación.',
+      },
+    ],
+  },
+  {
+    slug: 'beko',
+    nombre: 'Beko',
+    title: 'Servicio Técnico Beko Pamplona | Servitec Nafarroa',
+    description: 'Técnico Beko en Pamplona y Navarra. Reparamos lavadoras, frigoríficos, lavavajillas Beko y más. Servicio el mismo día. Llama: 634 006 304.',
+    h1: 'Servicio técnico Beko en Pamplona',
+    intro: 'Beko es una marca turca de gran calidad-precio con cada vez más presencia en los hogares navarros. En Servitec Nafarroa reparamos electrodomésticos Beko en Pamplona y toda Navarra. Conocemos bien sus modelos más vendidos y tenemos acceso a repuestos originales para una reparación rápida.',
+    electrodomesticos: [
+      'Lavadoras Beko',
+      'Frigoríficos Beko',
+      'Lavavajillas Beko',
+      'Hornos Beko',
+      'Microondas Beko',
+      'Secadoras Beko',
+    ],
+    specialties: [
+      'Reparación de lavadoras Beko con tecnología SteamCure',
+      'Diagnóstico en frigoríficos Beko con NeoFrost',
+      'Reparación de lavavajillas Beko HygieniX',
+      'Solución de errores E1-E7 en electrodomésticos Beko',
+    ],
+    faq: [
+      {
+        q: '¿Reparáis electrodomésticos Beko en Pamplona?',
+        a: 'Sí, Beko es una de las marcas más solicitadas. Disponemos de repuestos y experiencia con toda la gama Beko.',
+      },
+      {
+        q: '¿Cuánto cuesta reparar un electrodoméstico Beko en Pamplona?',
+        a: 'El diagnóstico cuesta 40 € + IVA. Las reparaciones Beko suelen estar entre 55 € y 130 €, siendo una de las marcas con mejor relación entre coste de reparación y precio del aparato nuevo.',
+      },
+      {
+        q: '¿Merece la pena reparar un Beko o es mejor comprarlo nuevo?',
+        a: 'Depende de la antigüedad y la avería. Para aparatos de menos de 7 años, la reparación casi siempre es rentable. Te asesoramos sin compromiso.',
+      },
+    ],
+  },
+  {
+    slug: 'zanussi',
+    nombre: 'Zanussi',
+    title: 'Servicio Técnico Zanussi Pamplona | Servitec Nafarroa',
+    description: 'Técnico Zanussi en Pamplona y Navarra. Reparamos lavadoras, lavavajillas y electrodomésticos Zanussi. 365 días. Llama: 634 006 304.',
+    h1: 'Servicio técnico Zanussi en Pamplona',
+    intro: 'Zanussi es una marca italiana del grupo Electrolux con larga trayectoria en el mercado español. En Servitec Nafarroa reparamos electrodomésticos Zanussi en Pamplona y toda Navarra. La tecnología Zanussi comparte plataforma con Electrolux y AEG, lo que nos permite diagnósticos precisos y reparaciones eficientes.',
+    electrodomesticos: [
+      'Lavadoras Zanussi',
+      'Lavavajillas Zanussi',
+      'Frigoríficos Zanussi',
+      'Hornos Zanussi',
+      'Secadoras Zanussi',
+    ],
+    specialties: [
+      'Reparación de lavadoras Zanussi ZWF y ZWT',
+      'Diagnóstico en lavavajillas Zanussi ZDT',
+      'Sustitución de resistencias en hornos Zanussi',
+      'Solución de errores E10, E20, E40 en lavadoras Zanussi',
+    ],
+    faq: [
+      {
+        q: '¿Reparáis lavadoras Zanussi con error E20?',
+        a: 'Sí, el error E20 en Zanussi indica problema de desagüe. Generalmente se resuelve limpiando la bomba o revisando la manguera. Lo solucionamos en la primera visita.',
+      },
+      {
+        q: '¿Cuánto cuesta reparar un electrodoméstico Zanussi en Pamplona?',
+        a: 'El diagnóstico cuesta 40 € + IVA. Las reparaciones Zanussi suelen estar entre 55 € y 140 €.',
+      },
+      {
+        q: '¿Zanussi y Electrolux comparten repuestos?',
+        a: 'En muchos casos sí, ya que pertenecen al mismo grupo. Esto facilita encontrar piezas y agiliza la reparación.',
+      },
+    ],
+  },
+  {
+    slug: 'teka',
+    nombre: 'Teka',
+    title: 'Servicio Técnico Teka Pamplona | Servitec Nafarroa',
+    description: 'Técnico Teka en Pamplona y Navarra. Reparamos hornos, campanas, placas y electrodomésticos Teka. 365 días al año. Llama: 634 006 304.',
+    h1: 'Servicio técnico Teka en Pamplona',
+    intro: 'Teka es una marca española con gran presencia en cocinas equipadas. En Servitec Nafarroa reparamos electrodomésticos Teka en Pamplona y toda Navarra, especialmente hornos, campanas extractoras y placas de cocción, que son los productos estrella de esta marca.',
+    electrodomesticos: [
+      'Hornos Teka',
+      'Campanas extractoras Teka',
+      'Placas vitrocerámica Teka',
+      'Placas de inducción Teka',
+      'Lavavajillas Teka',
+      'Microondas Teka',
+      'Frigoríficos Teka',
+    ],
+    specialties: [
+      'Especialistas en hornos Teka HC y HLC',
+      'Reparación de campanas Teka de isla y pared',
+      'Diagnóstico en placas de inducción Teka',
+      'Sustitución de motores en campanas Teka',
+    ],
+    faq: [
+      {
+        q: '¿Reparáis campanas Teka integradas en mueble?',
+        a: 'Sí, reparamos campanas Teka de todos los tipos: de pared, de isla, integradas y telescópicas. Sin coste adicional por el tipo de instalación.',
+      },
+      {
+        q: '¿Cuánto cuesta reparar un electrodoméstico Teka en Pamplona?',
+        a: 'El diagnóstico cuesta 40 € + IVA. Las reparaciones Teka suelen estar entre 55 € y 130 €.',
+      },
+      {
+        q: '¿Tenéis repuestos para hornos Teka antiguos?',
+        a: 'Tenemos acceso a repuestos Teka para modelos de hasta 12 años. Para modelos más antiguos lo consultamos bajo pedido.',
+      },
+    ],
+  },
+  {
+    slug: 'edesa',
+    nombre: 'Edesa',
+    title: 'Servicio Técnico Edesa Pamplona | Servitec Nafarroa',
+    description: 'Técnico Edesa en Pamplona y Navarra. Reparamos lavadoras, lavavajillas y electrodomésticos Edesa. Presupuesto sin compromiso. Llama: 634 006 304.',
+    h1: 'Servicio técnico Edesa en Pamplona',
+    intro: 'Edesa es una marca española con tradición en el norte de España y especialmente conocida en Navarra. En Servitec Nafarroa reparamos electrodomésticos Edesa en Pamplona y toda la comunidad foral. Tenemos amplia experiencia con los modelos de esta marca y acceso a repuestos para una reparación fiable.',
+    electrodomesticos: [
+      'Lavadoras Edesa',
+      'Lavavajillas Edesa',
+      'Frigoríficos Edesa',
+      'Hornos Edesa',
+      'Campanas Edesa',
+    ],
+    specialties: [
+      'Reparación de lavadoras Edesa EWF y MBLC',
+      'Diagnóstico en lavavajillas Edesa EDF',
+      'Sustitución de resistencias en hornos Edesa',
+      'Reparación de motores en campanas Edesa',
+    ],
+    faq: [
+      {
+        q: '¿Reparáis electrodomésticos Edesa en Pamplona?',
+        a: 'Sí, Edesa tiene mucha presencia en Navarra y es una de las marcas que reparamos con más frecuencia en la zona.',
+      },
+      {
+        q: '¿Cuánto cuesta reparar un electrodoméstico Edesa en Pamplona?',
+        a: 'El diagnóstico cuesta 40 € + IVA. Las reparaciones Edesa suelen estar entre 55 € y 130 €.',
+      },
+      {
+        q: '¿Encontráis repuestos para Edesa fácilmente?',
+        a: 'Sí, al pertenecer al grupo BSH, muchos repuestos son compatibles con Bosch, Balay y Siemens, lo que facilita encontrar piezas.',
+      },
+    ],
+  },
+  {
+    slug: 'cata',
+    nombre: 'Cata',
+    title: 'Servicio Técnico Cata Pamplona | Servitec Nafarroa',
+    description: 'Técnico Cata en Pamplona y Navarra. Reparamos campanas extractoras, hornos y electrodomésticos Cata. Mismo día. Llama: 634 006 304.',
+    h1: 'Servicio técnico Cata en Pamplona',
+    intro: 'Cata es una marca española especializada en campanas extractoras y electrodomésticos de cocina. En Servitec Nafarroa reparamos campanas, hornos y placas Cata en Pamplona y toda Navarra. Nuestra experiencia con los motores y la electrónica de Cata nos permite resolver la mayoría de averías en la primera visita.',
+    electrodomesticos: [
+      'Campanas extractoras Cata',
+      'Hornos Cata',
+      'Placas vitrocerámica Cata',
+      'Placas de inducción Cata',
+      'Microondas Cata',
+      'Lavavajillas Cata',
+    ],
+    specialties: [
+      'Especialistas en reparación de motores de campanas Cata',
+      'Diagnóstico en campanas Cata con panel táctil',
+      'Reparación de hornos Cata con pirolisis',
+      'Sustitución de luces LED en campanas Cata',
+    ],
+    faq: [
+      {
+        q: '¿Reparáis campanas Cata de isla y de pared?',
+        a: 'Sí, reparamos todos los modelos Cata: campanas de pared, de isla, telescópicas e integradas. También las campanas con control remoto o táctil.',
+      },
+      {
+        q: '¿Cuánto cuesta reparar una campana Cata en Pamplona?',
+        a: 'El diagnóstico cuesta 40 € + IVA. La reparación de campanas Cata suele estar entre 55 € y 120 €. El cambio de motor es la reparación más habitual.',
+      },
+      {
+        q: '¿Tenéis repuestos Cata originales?',
+        a: 'Sí, trabajamos con repuestos originales Cata. Al ser una marca española, la logística de repuestos es ágil y solemos tener las piezas más habituales disponibles.',
+      },
+    ],
+  },
 ]
