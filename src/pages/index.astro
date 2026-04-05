@@ -133,9 +133,10 @@ const MARCAS = [
     .stat-card:nth-child(odd) { border-right: 1px solid rgba(255,255,255,.08) !important; }
 
     /* Hero */
-    .hero-img-block { display: none !important; }
-    .hero-grid { grid-template-columns: 1fr !important; gap: 0 !important; }
-    .hero-section { padding: 48px 0 !important; min-height: unset !important; }
+    .hero-img-block { display: block !important; }
+    .hero-grid { grid-template-columns: 1fr !important; gap: 32px !important; }
+    .hero-section { padding: 48px 0 32px !important; min-height: unset !important; }
+    .hero-img-block > div:first-child { aspect-ratio: 3/2 !important; border-radius: 20px !important; }
     .hero-content { gap: 20px !important; }
 
     /* About */
