@@ -113,7 +113,7 @@ const jsonLd = {
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
     <link rel="manifest" href="/site.webmanifest" />
     <!-- Preload LCP image — must be as early as possible -->
-    <link rel="preload" as="image" href={lcpImage} fetchpriority="high" />
+    <link rel="preload" as="image" href={lcpImage} fetchpriority="high" media="(min-width: 769px)" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>{title}</title>
