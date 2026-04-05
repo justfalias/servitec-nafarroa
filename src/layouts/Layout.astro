@@ -98,6 +98,10 @@ const jsonLd = {
 <!DOCTYPE html>
 <html lang="es">
   <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
     <!-- Google Tag Manager -->
     <script is:inline>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
     new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -107,7 +111,7 @@ const jsonLd = {
     <!-- End Google Tag Manager -->
     <!-- Vercel Web Analytics -->
     <Analytics />
-    <!-- Favicon — lo antes posible para que Google lo detecte -->
+    <!-- Favicon -->
     <link rel="shortcut icon" href="/favicon.ico" />
     <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48.png" />
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png" />
@@ -115,12 +119,8 @@ const jsonLd = {
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
     <link rel="manifest" href="/site.webmanifest" />
-    <!-- Preload LCP image — must be as early as possible -->
+    <!-- Preload LCP image -->
     <link rel="preload" as="image" href={lcpImage} fetchpriority="high" media="(min-width: 769px)" />
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>{title}</title>
-    <meta name="description" content={description} />
     <link rel="canonical" href={canonical} />
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
     <meta name="author" content="Servitec Nafarroa" />
@@ -153,23 +153,6 @@ const jsonLd = {
 
     <meta name="theme-color" content="#e75f3c" />
     <meta name="msapplication-TileColor" content="#273339" />
-
-    <!-- GA4 -->
-    <script is:inline async src="https://www.googletagmanager.com/gtag/js?id=G-5MCM5M49Z9"></script>
-    <script is:inline>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-5MCM5M49Z9');
-      document.addEventListener('click', function(e) {
-        var el = e.target.closest('[data-cta]');
-        if (!el) return;
-        gtag('event', 'cta_click', {
-          cta_type: el.dataset.cta,
-          cta_location: el.dataset.location
-        });
-      });
-    </script>
 
     <!-- Sitemap hint -->
     <link rel="sitemap" type="application/xml" href="/sitemap.xml" />
