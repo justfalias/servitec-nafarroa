@@ -1,5 +1,6 @@
 ---
 import '../styles/global.css'
+import Analytics from '@vercel/analytics/astro'
 
 interface Props {
   title?: string
@@ -104,6 +105,8 @@ const jsonLd = {
     'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
     })(window,document,'script','dataLayer','GTM-MPRN8F5V');</script>
     <!-- End Google Tag Manager -->
+    <!-- Vercel Web Analytics -->
+    <Analytics />
     <!-- Favicon — lo antes posible para que Google lo detecte -->
     <link rel="shortcut icon" href="/favicon.ico" />
     <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48.png" />
