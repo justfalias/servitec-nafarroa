@@ -58,6 +58,32 @@ const MARCAS = [
 ---
 
 <Layout>
+<script type="application/ld+json" set:html={JSON.stringify({
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "¿Cuánto cuesta reparar una lavadora en Pamplona?",
+      "acceptedAnswer": { "@type": "Answer", "text": "La intervención mínima (desplazamiento + diagnóstico + presupuesto) tiene un coste de 40€ + IVA. La mano de obra de reparación son 20€ + IVA más el coste del repuesto según fabricante. La mayoría de reparaciones están entre 60€ y 180€." }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Reparáis electrodomésticos Siemens, Bosch y Balay en Pamplona?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Sí, somos especialistas en Siemens, Bosch y Balay. También reparamos Miele, AEG, Electrolux, Samsung, LG, Fagor, Beko, Zanussi, Teka, Edesa, Cata y más marcas en Pamplona y toda Navarra." }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Trabajáis festivos y fines de semana?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Sí. Disponibles los 365 días del año, incluyendo festivos y fines de semana. Un electrodoméstico averiado no entiende de calendarios." }
+    },
+    {
+      "@type": "Question",
+      "name": "¿A qué zonas de Navarra llegáis?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Cubrimos Pamplona y toda Navarra: Barañáin, Burlada, Huarte, Villava, Ansoáin, Zizur Mayor, Berriozar, Cizur, Noáin, Sarriguren, Beriáin y más municipios." }
+    }
+  ]
+})} />
 <style is:global>
   * { box-sizing: border-box; }
   :root { --orange: #f97316; --blue: #1d4ed8; --dark: #0a0f1e; --mid: #111827; }
