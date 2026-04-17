@@ -344,4 +344,116 @@ export const ZONAS_SEO: Zona[] = [
       },
     ],
   },
+
+  // — LOTE 4 —
+  {
+    slug: 'tafalla',
+    nombre: 'Tafalla',
+    distanciaKm: 36,
+    descripcion: 'Tafalla es una ciudad de la Navarra Media con más de 11.000 habitantes, capital de la comarca de Tafalla.',
+    descripcionLarga: 'Tafalla es la capital de la comarca que lleva su nombre y uno de los núcleos urbanos más importantes de la Navarra Media, con más de 11.000 habitantes. Situada a 36 km de Pamplona por la A-15, es un centro de servicios para los municipios de su entorno. En Servitec Nafarroa desplazamos técnicos a Tafalla para reparar cualquier electrodoméstico del hogar, con diagnóstico a domicilio y presupuesto cerrado.',
+    codigoPostal: '31300',
+    faq: [
+      {
+        q: '¿Atendéis averías de electrodomésticos en Tafalla?',
+        a: 'Sí, cubrimos Tafalla y la comarca. Al estar a 36 km de Pamplona, solemos poder atender en el mismo día o el siguiente. Llámanos y buscamos la cita más próxima.',
+      },
+      {
+        q: '¿Cuánto cuesta la visita en Tafalla?',
+        a: 'El diagnóstico y presupuesto es de 40 € + IVA. Para Tafalla puede aplicarse un suplemento de desplazamiento que te indicamos antes de confirmar la visita.',
+      },
+      {
+        q: '¿Reparáis todas las marcas en Tafalla?',
+        a: 'Sí, somos técnicos multimarca. Reparamos Siemens, Bosch, Balay, Miele, AEG, Samsung, LG, Beko, Fagor, Edesa y cualquier otra marca habitual.',
+      },
+    ],
+  },
+  {
+    slug: 'olite',
+    nombre: 'Olite',
+    distanciaKm: 42,
+    descripcion: 'Olite es una villa medieval de la Navarra Media con más de 3.500 habitantes, famosa por su castillo palacio.',
+    descripcionLarga: 'Olite es una de las villas más emblemáticas de Navarra, conocida por su castillo palacio medieval y su producción vitivinícola. Con más de 3.500 habitantes, es el núcleo principal del municipio de Olite-Erriberri en la Navarra Media. En Servitec Nafarroa atendemos Olite y los municipios cercanos para la reparación de electrodomésticos a domicilio, con técnicos desplazados desde Pamplona.',
+    codigoPostal: '31390',
+    faq: [
+      {
+        q: '¿Desplazáis técnicos hasta Olite?',
+        a: 'Sí, cubrimos Olite y el entorno de la Navarra Media. Al estar a 42 km de Pamplona, la disponibilidad para el mismo día puede ser más limitada, pero solemos atender en 24-48 horas.',
+      },
+      {
+        q: '¿El precio es el mismo que en Pamplona?',
+        a: 'El diagnóstico es de 40 € + IVA. Para Olite puede aplicarse un suplemento de desplazamiento que te comunicamos antes de confirmar la visita, sin compromiso.',
+      },
+      {
+        q: '¿Reparáis frigoríficos y lavadoras en Olite?',
+        a: 'Sí, reparamos todo tipo de electrodomésticos domésticos en Olite: lavadoras, lavavajillas, frigoríficos, hornos, vitrocerámicas, secadoras y calentadores.',
+      },
+    ],
+  },
+  {
+    slug: 'sanguesa',
+    nombre: 'Sangüesa',
+    distanciaKm: 46,
+    descripcion: 'Sangüesa es una localidad de la Navarra Media Oriental con más de 5.000 habitantes a orillas del río Aragón.',
+    descripcionLarga: 'Sangüesa-Zangoza es la principal localidad de la Navarra Media Oriental, situada a orillas del río Aragón y en el Camino de Santiago aragonés. Con más de 5.000 habitantes, es el centro de servicios de la comarca de Sangüesa. En Servitec Nafarroa atendemos Sangüesa y los municipios de su comarca para la reparación de electrodomésticos a domicilio.',
+    codigoPostal: '31400',
+    faq: [
+      {
+        q: '¿Cubrís Sangüesa y la comarca de la Navarra Media Oriental?',
+        a: 'Sí, atendemos Sangüesa y los municipios del entorno. Al estar a 46 km de Pamplona, solemos poder atender en 24-48 horas. Llámanos para concretar fecha.',
+      },
+      {
+        q: '¿Cuánto cuesta la visita en Sangüesa?',
+        a: 'El diagnóstico y presupuesto es de 40 € + IVA. Para Sangüesa puede aplicarse un suplemento de desplazamiento que te indicamos antes de confirmar la visita.',
+      },
+      {
+        q: '¿Reparáis electrodomésticos de todas las marcas en Sangüesa?',
+        a: 'Sí, somos técnicos multimarca. Reparamos Siemens, Bosch, Balay, Miele, AEG, Samsung, LG, Beko, Fagor, Edesa y cualquier otra marca del mercado español.',
+      },
+    ],
+  },
+  {
+    slug: 'aoiz',
+    nombre: 'Aoiz',
+    distanciaKm: 30,
+    descripcion: 'Aoiz es la capital del Valle de Aoiz-Agoitz con más de 2.500 habitantes, en la Navarra Media Oriental.',
+    descripcionLarga: 'Aoiz-Agoitz es la capital del valle homónimo y un núcleo de servicios para los municipios del Pirineo navarro occidental. Con más de 2.500 habitantes y una ubicación privilegiada entre Pamplona y los valles pirenaicos, es un municipio con buenas comunicaciones por la carretera NA-150. En Servitec Nafarroa atendemos Aoiz y los municipios próximos para la reparación de electrodomésticos a domicilio.',
+    codigoPostal: '31430',
+    faq: [
+      {
+        q: '¿Atendéis Aoiz y los valles del Pirineo navarro?',
+        a: 'Sí, cubrimos Aoiz y los municipios próximos. Al estar a 30 km de Pamplona, podemos atender con relativa rapidez, generalmente el mismo día o el siguiente.',
+      },
+      {
+        q: '¿Hay recargo por desplazamiento a Aoiz?',
+        a: 'El diagnóstico es de 40 € + IVA. Para Aoiz puede aplicarse un pequeño suplemento de desplazamiento que te comunicamos antes de confirmar la visita.',
+      },
+      {
+        q: '¿Reparáis calentadores de gas en Aoiz?',
+        a: 'Sí, reparamos calentadores de agua eléctricos y de gas, termos eléctricos y cualquier electrodoméstico doméstico. Para los de gas también revisamos la seguridad de la instalación.',
+      },
+    ],
+  },
+  {
+    slug: 'peralta',
+    nombre: 'Peralta',
+    distanciaKm: 55,
+    descripcion: 'Peralta es una localidad de la Ribera navarra con más de 5.000 habitantes en la comarca de Ribera Alta.',
+    descripcionLarga: 'Peralta-Azkoien se sitúa en la Ribera Alta navarra, a orillas del río Arga, con más de 5.000 habitantes. Es el núcleo urbano principal de su comarca y un centro agrícola e industrial de la zona media sur de Navarra. En Servitec Nafarroa atendemos Peralta para la reparación de todo tipo de electrodomésticos domésticos, con técnicos desplazados desde Pamplona.',
+    codigoPostal: '31350',
+    faq: [
+      {
+        q: '¿Desplazáis técnicos hasta Peralta?',
+        a: 'Sí, cubrimos Peralta y la Ribera Alta navarra. Al estar a 55 km de Pamplona, la atención suele ser en 24-48 horas. Llámanos para concretar la visita.',
+      },
+      {
+        q: '¿Cuánto cuesta la visita en Peralta?',
+        a: 'El diagnóstico y presupuesto es de 40 € + IVA. Para Peralta puede aplicarse un suplemento de desplazamiento que te indicamos antes de confirmar la visita, sin ningún compromiso.',
+      },
+      {
+        q: '¿Reparáis lavadoras y lavavajillas en Peralta?',
+        a: 'Sí, reparamos todo tipo de electrodomésticos en Peralta: lavadoras, lavavajillas, frigoríficos, hornos, vitrocerámicas, secadoras, microondas y calentadores de agua.',
+      },
+    ],
+  },
 ]
