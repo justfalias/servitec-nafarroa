@@ -232,4 +232,116 @@ export const ZONAS_SEO: Zona[] = [
       },
     ],
   },
+
+  // — LOTE 3 —
+  {
+    slug: 'orkoien',
+    nombre: 'Orkoien',
+    distanciaKm: 8,
+    descripcion: 'Orkoien es un municipio al noroeste de Pamplona con unos 4.000 habitantes y una importante zona industrial.',
+    descripcionLarga: 'Orkoien se sitúa al noroeste de Pamplona, junto a la autovía A-12. Con unos 4.000 habitantes, combina una zona residencial tranquila con un polígono industrial de relevancia en la comarca. En Servitec Nafarroa cubrimos Orkoien con el mismo servicio que el resto de la cuenca de Pamplona: mismo día, precio fijo y técnicos multimarca especializados.',
+    codigoPostal: '31170',
+    faq: [
+      {
+        q: '¿Atendéis averías en Orkoien el mismo día?',
+        a: 'Sí. Orkoien está a menos de 15 minutos de Pamplona por la A-12. En la mayoría de casos podemos desplazarnos el mismo día, de 8:00 a 20:00, los 365 días del año.',
+      },
+      {
+        q: '¿Cuánto cuesta el desplazamiento a Orkoien?',
+        a: 'El mismo precio que en Pamplona: 40 € + IVA por desplazamiento, diagnóstico y presupuesto. Sin recargos por distancia dentro de la comarca.',
+      },
+      {
+        q: '¿Reparáis todo tipo de electrodomésticos en Orkoien?',
+        a: 'Sí, reparamos lavadoras, lavavajillas, frigoríficos, hornos, vitrocerámicas, placas de inducción, secadoras, microondas, campanas y calentadores de agua de todas las marcas.',
+      },
+    ],
+  },
+  {
+    slug: 'galar',
+    nombre: 'Galar',
+    distanciaKm: 10,
+    descripcion: 'Galar es un municipio al suroeste de Pamplona que engloba varias localidades como Salinas de Pamplona y Cordovilla.',
+    descripcionLarga: 'El municipio de Galar engloba varias localidades —Salinas de Pamplona, Cordovilla, Olaz-Chipi, Arlegui y otras— al suroeste de Pamplona. Con una población de unos 4.000 habitantes repartidos en distintos núcleos, Galar es una zona residencial de baja densidad con buenas comunicaciones con la capital. En Servitec Nafarroa atendemos todos los núcleos del municipio de Galar con desplazamiento a precio fijo.',
+    codigoPostal: '31191',
+    faq: [
+      {
+        q: '¿Cubrís todas las localidades del municipio de Galar?',
+        a: 'Sí, cubrimos Salinas de Pamplona, Cordovilla, Olaz-Chipi, Arlegui y el resto de núcleos del municipio de Galar. El precio de desplazamiento es el mismo para todos: 40 € + IVA.',
+      },
+      {
+        q: '¿Podéis venir hoy a reparar un frigorífico en Galar?',
+        a: 'En la mayoría de casos sí. Las averías de frigorífico las priorizamos por ser urgentes. Llámanos y comprobamos disponibilidad para el mismo día.',
+      },
+      {
+        q: '¿Reparáis calentadores de gas en Galar?',
+        a: 'Sí, reparamos calentadores de agua eléctricos y de gas. Para los de gas también revisamos la seguridad de la instalación durante la visita.',
+      },
+    ],
+  },
+  {
+    slug: 'cizur',
+    nombre: 'Cizur',
+    distanciaKm: 7,
+    descripcion: 'Cizur es un municipio al sur de Pamplona que incluye Cizur Mayor y Cizur Menor, con más de 16.000 habitantes en conjunto.',
+    descripcionLarga: 'El municipio de Cizur comprende Cizur Mayor y Cizur Menor, situados al sur de Pamplona junto al Camino de Santiago. Con más de 16.000 habitantes, es una de las zonas de mayor crecimiento urbanístico de Navarra, con numerosas viviendas de obra nueva y electrodomésticos de última generación. En Servitec Nafarroa somos el servicio técnico de referencia para la zona sur de la cuenca de Pamplona.',
+    codigoPostal: '31180',
+    faq: [
+      {
+        q: '¿Atendéis tanto Cizur Mayor como Cizur Menor?',
+        a: 'Sí, cubrimos todo el municipio de Cizur: Cizur Mayor, Cizur Menor y el resto de urbanizaciones del entorno. El precio de desplazamiento es el mismo para toda la zona.',
+      },
+      {
+        q: '¿Tenéis experiencia con electrodomésticos de nueva construcción en Cizur?',
+        a: 'Sí. La zona de Cizur tiene una alta proporción de viviendas recientes con electrodomésticos Siemens, Bosch, Balay y AEG integrados. Somos especialistas en estas marcas.',
+      },
+      {
+        q: '¿Podéis venir un sábado a reparar una lavadora en Cizur?',
+        a: 'Sí, trabajamos todos los días incluidos sábados, domingos y festivos de 8:00 a 20:00. El precio no varía según el día.',
+      },
+    ],
+  },
+  {
+    slug: 'tudela',
+    nombre: 'Tudela',
+    distanciaKm: 92,
+    descripcion: 'Tudela es la segunda ciudad más grande de Navarra, con más de 36.000 habitantes en la Ribera del Ebro.',
+    descripcionLarga: 'Tudela es la capital de la Ribera navarra y la segunda ciudad más poblada de Navarra, con más de 36.000 habitantes a orillas del Ebro. Su tamaño y distancia de Pamplona la convierten en una plaza con alta demanda de servicio técnico de electrodomésticos. En Servitec Nafarroa desplazamos técnicos a Tudela para averías de todo tipo, con diagnóstico a domicilio y presupuesto cerrado antes de empezar.',
+    codigoPostal: '31500',
+    faq: [
+      {
+        q: '¿Desplazáis técnicos hasta Tudela desde Pamplona?',
+        a: 'Sí. Atendemos Tudela y la Ribera navarra, aunque al estar a mayor distancia de Pamplona la disponibilidad para el mismo día puede ser más limitada. Llámanos y buscamos la fecha más próxima posible.',
+      },
+      {
+        q: '¿El precio de desplazamiento es el mismo en Tudela?',
+        a: 'El coste de diagnóstico y presupuesto es de 40 € + IVA. Para zonas alejadas de Pamplona como Tudela puede aplicarse un suplemento de desplazamiento; te lo indicamos antes de confirmar la visita.',
+      },
+      {
+        q: '¿Reparáis electrodomésticos de todas las marcas en Tudela?',
+        a: 'Sí, somos técnicos multimarca. Reparamos Siemens, Bosch, Balay, Miele, AEG, Samsung, LG, Beko, Fagor, Edesa y el resto de marcas habituales en el mercado español.',
+      },
+    ],
+  },
+  {
+    slug: 'estella',
+    nombre: 'Estella',
+    distanciaKm: 44,
+    descripcion: 'Estella-Lizarra es una ciudad de la Navarra Media con más de 14.000 habitantes, capital de la comarca de Estella.',
+    descripcionLarga: 'Estella-Lizarra es la capital de la comarca de Estella y una de las ciudades históricas más importantes de Navarra, con más de 14.000 habitantes. Situada a 44 km de Pamplona por la A-12, es un núcleo de servicios para toda la Navarra Media occidental. En Servitec Nafarroa atendemos Estella y su comarca, con técnicos desplazados desde Pamplona para cualquier tipo de avería de electrodomésticos.',
+    codigoPostal: '31200',
+    faq: [
+      {
+        q: '¿Atendéis Estella y la comarca de Estella-Lizarra?',
+        a: 'Sí, cubrimos Estella y los municipios de la comarca. Al estar a 44 km de Pamplona, la disponibilidad para el mismo día puede ser más limitada, pero solemos poder atender en 24-48 horas.',
+      },
+      {
+        q: '¿Cuánto cuesta la visita a domicilio en Estella?',
+        a: 'El diagnóstico y presupuesto es de 40 € + IVA. Para Estella puede aplicarse un suplemento de desplazamiento que te comunicamos antes de confirmar la visita.',
+      },
+      {
+        q: '¿Reparáis lavadoras y frigoríficos en Estella?',
+        a: 'Sí, reparamos todo tipo de electrodomésticos en Estella: lavadoras, lavavajillas, frigoríficos, hornos, vitrocerámicas, secadoras y más, de todas las marcas.',
+      },
+    ],
+  },
 ]
