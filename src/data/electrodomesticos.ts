@@ -21,7 +21,7 @@ export const ELECTRODOMESTICOS: Electrodomestico[] = [
     title: 'Reparación de Lavadoras en Pamplona | Servitec Nafarroa',
     description: 'Técnico de lavadoras en Pamplona y Navarra. Reparamos Siemens, Bosch, Balay, Miele, AEG y más. Servicio a domicilio el mismo día, 365 días al año. Llama: 634 006 304.',
     h1: 'Reparación de lavadoras en Pamplona',
-    intro: 'La lavadora es uno de los electrodomésticos más usados del hogar y también uno de los más propensos a averías. En Servitec Nafarroa llevamos más de 20 años reparando lavadoras de todas las marcas en Pamplona y toda Navarra. Diagnosticamos la avería en tu domicilio y reparamos en el mismo día en la mayoría de casos.',
+    intro: 'La lavadora es uno de los electrodomésticos más usados del hogar y también uno de los más propensos a averías. En Servitec Nafarroa llevamos más de 20 años reparando lavadoras de todas las marcas en Pamplona y zonas de Navarra. Diagnosticamos la avería en tu domicilio y reparamos en el mismo día en la mayoría de casos.',
     sintomas: [
       'La lavadora no centrifuga o centrifuga mal',
       'Pierde agua por la puerta o por debajo',
@@ -59,7 +59,7 @@ export const ELECTRODOMESTICOS: Electrodomestico[] = [
     title: 'Reparación de Lavavajillas en Pamplona | Servitec Nafarroa',
     description: 'Técnico de lavavajillas en Pamplona y Navarra. Reparamos Siemens, Bosch, Balay, Miele, AEG y más marcas. Diagnóstico a domicilio el mismo día. Llama: 634 006 304.',
     h1: 'Reparación de lavavajillas en Pamplona',
-    intro: 'Un lavavajillas averiado puede paralizar la cocina de tu hogar o negocio. En Servitec Nafarroa reparamos lavavajillas de todas las marcas en Pamplona y toda Navarra, con diagnóstico en tu domicilio y solución en el mismo día. Más de 20 años de experiencia nos avalan.',
+    intro: 'Un lavavajillas averiado puede paralizar la cocina de tu hogar o negocio. En Servitec Nafarroa reparamos lavavajillas de todas las marcas en Pamplona y zonas de Navarra, con diagnóstico en tu domicilio y solución en el mismo día. Más de 20 años de experiencia nos avalan.',
     sintomas: [
       'El lavavajillas no lava bien, deja restos de suciedad',
       'No desagua al terminar el ciclo',
@@ -97,7 +97,7 @@ export const ELECTRODOMESTICOS: Electrodomestico[] = [
     title: 'Reparación de Frigoríficos en Pamplona | Servitec Nafarroa',
     description: 'Técnico de frigoríficos y congeladores en Pamplona y Navarra. Reparamos Siemens, Bosch, Balay, Miele, Samsung, LG y más. Urgencias el mismo día. Llama: 634 006 304.',
     h1: 'Reparación de frigoríficos en Pamplona',
-    intro: 'Un frigorífico averiado es una urgencia: los alimentos se estropean en horas. En Servitec Nafarroa priorizamos las averías de frigorífico y congelador para actuar el mismo día en Pamplona y toda Navarra. Reparamos todas las marcas y modelos, incluidos frigoríficos americanos y combinados.',
+    intro: 'Un frigorífico averiado es una urgencia: los alimentos se estropean en horas. En Servitec Nafarroa priorizamos las averías de frigorífico y congelador para actuar el mismo día en Pamplona y zonas de Navarra. Reparamos todas las marcas y modelos, incluidos frigoríficos americanos y combinados.',
     sintomas: [
       'El frigorífico no enfría o enfría insuficientemente',
       'El congelador no congela',
@@ -134,7 +134,7 @@ export const ELECTRODOMESTICOS: Electrodomestico[] = [
     title: 'Reparación de Hornos en Pamplona | Servitec Nafarroa',
     description: 'Técnico de hornos en Pamplona y Navarra. Reparamos Siemens, Bosch, Balay, Miele, AEG, Teka y más marcas. Diagnóstico a domicilio. Llama: 634 006 304.',
     h1: 'Reparación de hornos en Pamplona',
-    intro: 'Tanto si tienes un horno convencional como uno de pirolisis o con vapor, en Servitec Nafarroa lo reparamos. Llevamos más de 20 años con averías de hornos eléctricos y de gas en Pamplona y toda Navarra. Diagnóstico en tu domicilio y reparación en el mismo día.',
+    intro: 'Tanto si tienes un horno convencional como uno de pirolisis o con vapor, en Servitec Nafarroa lo reparamos. Llevamos más de 20 años con averías de hornos eléctricos y de gas en Pamplona y zonas de Navarra. Diagnóstico en tu domicilio y reparación en el mismo día.',
     sintomas: [
       'El horno no calienta o no alcanza la temperatura correcta',
       'No enciende o no responde al panel',
@@ -210,7 +210,7 @@ export const ELECTRODOMESTICOS: Electrodomestico[] = [
     title: 'Reparación de Microondas en Pamplona | Servitec Nafarroa',
     description: 'Técnico de microondas en Pamplona y Navarra. Reparamos Siemens, Bosch, Balay, Samsung, LG, Teka y más marcas. Servicio a domicilio. Llama: 634 006 304.',
     h1: 'Reparación de microondas en Pamplona',
-    intro: 'El microondas es un electrodoméstico cotidiano cuya avería puede ser molesta. En Servitec Nafarroa reparamos microondas convencionales, con grill y combinados en Pamplona y toda Navarra. Diagnóstico rápido en tu domicilio y reparación el mismo día en la mayoría de casos.',
+    intro: 'El microondas es un electrodoméstico cotidiano cuya avería puede ser molesta. En Servitec Nafarroa reparamos microondas convencionales, con grill y combinados en Pamplona y zonas de Navarra. Diagnóstico rápido en tu domicilio y reparación el mismo día en la mayoría de casos.',
     sintomas: [
       'El microondas no calienta la comida',
       'No enciende o no responde a los botones',
@@ -323,7 +323,7 @@ export const ELECTRODOMESTICOS: Electrodomestico[] = [
     title: 'Reparación de Calentadores de Agua en Pamplona | Servitec Nafarroa',
     description: 'Técnico de calentadores y termos eléctricos en Pamplona y Navarra. Reparamos Siemens, Bosch, Balay, Junkers, Fleck y más marcas. Urgencias el mismo día. Llama: 634 006 304.',
     h1: 'Reparación de calentadores de agua en Pamplona',
-    intro: 'Quedarse sin agua caliente es una urgencia doméstica. En Servitec Nafarroa reparamos calentadores eléctricos (termos), calentadores de gas y termos eléctricos en Pamplona y toda Navarra. Atendemos urgencias el mismo día y priorizamos este tipo de avería para que no te quedes sin agua caliente.',
+    intro: 'Quedarse sin agua caliente es una urgencia doméstica. En Servitec Nafarroa reparamos calentadores eléctricos (termos), calentadores de gas y termos eléctricos en Pamplona y zonas de Navarra. Atendemos urgencias el mismo día y priorizamos este tipo de avería para que no te quedes sin agua caliente.',
     sintomas: [
       'El calentador no da agua caliente',
       'El agua tarda mucho en calentarse',
@@ -360,7 +360,7 @@ export const ELECTRODOMESTICOS: Electrodomestico[] = [
     title: 'Reparación de Lavasecadoras en Pamplona | Servitec Nafarroa',
     description: 'Técnico de lavasecadoras en Pamplona y Navarra. Reparamos Siemens, Bosch, Balay, Miele, AEG, LG, Samsung y más marcas. Servicio a domicilio el mismo día. Llama: 634 006 304.',
     h1: 'Reparación de lavasecadoras en Pamplona',
-    intro: 'La lavasecadora es un electrodoméstico que combina dos funciones en un solo aparato, lo que la hace especialmente delicada cuando falla. En Servitec Nafarroa llevamos más de 20 años reparando lavasecadoras de todas las marcas en Pamplona y toda Navarra. Diagnosticamos la avería en tu domicilio y reparamos en el mismo día en la mayoría de casos.',
+    intro: 'La lavasecadora es un electrodoméstico que combina dos funciones en un solo aparato, lo que la hace especialmente delicada cuando falla. En Servitec Nafarroa llevamos más de 20 años reparando lavasecadoras de todas las marcas en Pamplona y zonas de Navarra. Diagnosticamos la avería en tu domicilio y reparamos en el mismo día en la mayoría de casos.',
     sintomas: [
       'La lavasecadora lava pero no seca',
       'El ciclo de secado es demasiado largo o ineficiente',
@@ -398,7 +398,7 @@ export const ELECTRODOMESTICOS: Electrodomestico[] = [
     title: 'Reparación de Congeladores en Pamplona | Servitec Nafarroa',
     description: 'Técnico de congeladores en Pamplona y Navarra. Reparamos Siemens, Bosch, Balay, Miele, AEG, Samsung, LG y más. Urgencias el mismo día. Llama: 634 006 304.',
     h1: 'Reparación de congeladores en Pamplona',
-    intro: 'Un congelador averiado es una urgencia: los alimentos congelados pueden perderse en pocas horas. En Servitec Nafarroa priorizamos las averías de congelador para actuar el mismo día en Pamplona y toda Navarra. Reparamos congeladores de todos los tipos: verticales, horizontales (arcón), bajo encimera y combinados con frigorífico.',
+    intro: 'Un congelador averiado es una urgencia: los alimentos congelados pueden perderse en pocas horas. En Servitec Nafarroa priorizamos las averías de congelador para actuar el mismo día en Pamplona y zonas de Navarra. Reparamos congeladores de todos los tipos: verticales, horizontales (arcón), bajo encimera y combinados con frigorífico.',
     sintomas: [
       'El congelador no congela o congela insuficientemente',
       'Acumula escarcha o hielo en exceso',
@@ -435,7 +435,7 @@ export const ELECTRODOMESTICOS: Electrodomestico[] = [
     title: 'Reparación de Termos Eléctricos en Pamplona | Servitec Nafarroa',
     description: 'Técnico de termos eléctricos en Pamplona y Navarra. Reparamos Fleck, Ariston, Thermor, Cointra, Junkers, Fagor y más marcas. Urgencias el mismo día. Llama: 634 006 304.',
     h1: 'Reparación de termos eléctricos en Pamplona',
-    intro: 'Quedarse sin agua caliente por un termo averiado es una urgencia doméstica que no puede esperar. En Servitec Nafarroa reparamos termos eléctricos de todas las marcas y capacidades en Pamplona y toda Navarra. Atendemos urgencias el mismo día y llevamos en el vehículo las piezas más habituales — resistencias, termostatos y ánodos — para resolver en la primera visita.',
+    intro: 'Quedarse sin agua caliente por un termo averiado es una urgencia doméstica que no puede esperar. En Servitec Nafarroa reparamos termos eléctricos de todas las marcas y capacidades en Pamplona y zonas de Navarra. Atendemos urgencias el mismo día y llevamos en el vehículo las piezas más habituales — resistencias, termostatos y ánodos — para resolver en la primera visita.',
     sintomas: [
       'El termo no calienta el agua o calienta poco',
       'El agua tarda demasiado en calentarse',

@@ -16,7 +16,7 @@
     <image:image>
       <image:loc>https://www.servitecnafarroa.com/og-image.png</image:loc>
       <image:title>Servitec Nafarroa — Reparación de electrodomésticos en Pamplona</image:title>
-      <image:caption>Servicio técnico multimarca en Pamplona y toda Navarra, 365 días al año</image:caption>
+      <image:caption>Servicio técnico multimarca en Pamplona y zonas de Navarra, 365 días al año</image:caption>
     </image:image>
   </url>
   <url>
@@ -260,12 +260,6 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.servitecnafarroa.com/reparacion-electrodomesticos-tudela/</loc>
-    <lastmod>2026-04-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://www.servitecnafarroa.com/reparacion-electrodomesticos-estella/</loc>
     <lastmod>2026-04-17</lastmod>
     <changefreq>monthly</changefreq>
@@ -297,45 +291,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
-  <url>
-    <loc>https://www.servitecnafarroa.com/reparacion-electrodomesticos-peralta/</loc>
-    <lastmod>2026-04-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <!-- Lote 5: Ribera navarra -->
-  <url>
-    <loc>https://www.servitecnafarroa.com/reparacion-electrodomesticos-lodosa/</loc>
-    <lastmod>2026-04-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.servitecnafarroa.com/reparacion-electrodomesticos-milagro/</loc>
-    <lastmod>2026-04-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.servitecnafarroa.com/reparacion-electrodomesticos-caparroso/</loc>
-    <lastmod>2026-04-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.servitecnafarroa.com/reparacion-electrodomesticos-falces/</loc>
-    <lastmod>2026-04-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.servitecnafarroa.com/reparacion-electrodomesticos-marcilla/</loc>
-    <lastmod>2026-04-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
   <!-- Lote 6: Norte de Navarra -->
   <url>
     <loc>https://www.servitecnafarroa.com/reparacion-electrodomesticos-alsasua/</loc>

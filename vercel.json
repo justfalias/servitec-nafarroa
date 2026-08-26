@@ -1,6 +1,76 @@
 {
   "redirects": [
     {
+      "source": "/reparacion-electrodomesticos-tudela/",
+      "destination": "https://www.servitecnafarroa.com/",
+      "permanent": true
+    },
+    {
+      "source": "/reparacion-electrodomesticos-tudela",
+      "destination": "https://www.servitecnafarroa.com/",
+      "permanent": true
+    },
+    {
+      "source": "/reparacion-electrodomesticos-peralta/",
+      "destination": "https://www.servitecnafarroa.com/",
+      "permanent": true
+    },
+    {
+      "source": "/reparacion-electrodomesticos-peralta",
+      "destination": "https://www.servitecnafarroa.com/",
+      "permanent": true
+    },
+    {
+      "source": "/reparacion-electrodomesticos-lodosa/",
+      "destination": "https://www.servitecnafarroa.com/",
+      "permanent": true
+    },
+    {
+      "source": "/reparacion-electrodomesticos-lodosa",
+      "destination": "https://www.servitecnafarroa.com/",
+      "permanent": true
+    },
+    {
+      "source": "/reparacion-electrodomesticos-milagro/",
+      "destination": "https://www.servitecnafarroa.com/",
+      "permanent": true
+    },
+    {
+      "source": "/reparacion-electrodomesticos-milagro",
+      "destination": "https://www.servitecnafarroa.com/",
+      "permanent": true
+    },
+    {
+      "source": "/reparacion-electrodomesticos-caparroso/",
+      "destination": "https://www.servitecnafarroa.com/",
+      "permanent": true
+    },
+    {
+      "source": "/reparacion-electrodomesticos-caparroso",
+      "destination": "https://www.servitecnafarroa.com/",
+      "permanent": true
+    },
+    {
+      "source": "/reparacion-electrodomesticos-falces/",
+      "destination": "https://www.servitecnafarroa.com/",
+      "permanent": true
+    },
+    {
+      "source": "/reparacion-electrodomesticos-falces",
+      "destination": "https://www.servitecnafarroa.com/",
+      "permanent": true
+    },
+    {
+      "source": "/reparacion-electrodomesticos-marcilla/",
+      "destination": "https://www.servitecnafarroa.com/",
+      "permanent": true
+    },
+    {
+      "source": "/reparacion-electrodomesticos-marcilla",
+      "destination": "https://www.servitecnafarroa.com/",
+      "permanent": true
+    },
+    {
       "source": "/:path*",
       "has": [{ "type": "host", "value": "servitecnafarroa.com" }],
       "destination": "https://www.servitecnafarroa.com/:path*",

@@ -17,7 +17,7 @@ export const MARCAS_SEO: Marca[] = [
     title: 'Servicio Técnico Siemens Pamplona | Servitec Nafarroa',
     description: 'Técnico Siemens independiente en Pamplona y Navarra. Reparamos lavadoras, lavavajillas, frigoríficos y más. Mismo día, 365 días. Llama: 634 006 304.',
     h1: 'Servicio técnico Siemens en Pamplona',
-    intro: 'Siemens es una de las marcas de electrodomésticos más vendidas y valoradas en España. En Servitec Nafarroa somos técnicos independientes especializados en electrodomésticos Siemens en Pamplona y toda Navarra. Con más de 20 años de experiencia, conocemos a fondo la tecnología de esta marca alemana y disponemos de repuestos originales para la mayoría de averías.',
+    intro: 'Siemens es una de las marcas de electrodomésticos más vendidas y valoradas en España. En Servitec Nafarroa somos técnicos independientes especializados en electrodomésticos Siemens en Pamplona y zonas de Navarra. Con más de 20 años de experiencia, conocemos a fondo la tecnología de esta marca alemana y disponemos de repuestos originales para la mayoría de averías.',
     electrodomesticos: [
       'Lavadoras Siemens',
       'Lavavajillas Siemens',
@@ -55,7 +55,7 @@ export const MARCAS_SEO: Marca[] = [
     title: 'Servicio Técnico Bosch Pamplona | Servitec Nafarroa',
     description: 'Técnico Bosch independiente en Pamplona y Navarra. Reparamos lavadoras, lavavajillas, frigoríficos y más marcas Bosch. 365 días. Llama: 634 006 304.',
     h1: 'Servicio técnico Bosch en Pamplona',
-    intro: 'Bosch es sinónimo de fiabilidad y durabilidad en el hogar. En Servitec Nafarroa reparamos electrodomésticos Bosch en Pamplona y toda Navarra con más de 20 años de experiencia. Como técnicos independientes, ofrecemos diagnóstico rápido y precios claros para que tu electrodoméstico Bosch vuelva a funcionar cuanto antes.',
+    intro: 'Bosch es sinónimo de fiabilidad y durabilidad en el hogar. En Servitec Nafarroa reparamos electrodomésticos Bosch en Pamplona y zonas de Navarra con más de 20 años de experiencia. Como técnicos independientes, ofrecemos diagnóstico rápido y precios claros para que tu electrodoméstico Bosch vuelva a funcionar cuanto antes.',
     electrodomesticos: [
       'Lavadoras Bosch',
       'Lavavajillas Bosch',
@@ -93,7 +93,7 @@ export const MARCAS_SEO: Marca[] = [
     title: 'Servicio Técnico Balay Pamplona | Servitec Nafarroa',
     description: 'Técnico Balay independiente en Pamplona y Navarra. Reparamos lavadoras, lavavajillas, frigoríficos Balay y más. 365 días. Llama: 634 006 304.',
     h1: 'Servicio técnico Balay en Pamplona',
-    intro: 'Balay es la marca española del grupo BSH (Bosch/Siemens) y una de las más populares en los hogares navarros. En Servitec Nafarroa somos especialistas en electrodomésticos Balay en Pamplona y toda Navarra. Con más de 20 años reparando esta marca, conocemos sus modelos, sus averías más frecuentes y dónde conseguir los repuestos.',
+    intro: 'Balay es la marca española del grupo BSH (Bosch/Siemens) y una de las más populares en los hogares navarros. En Servitec Nafarroa somos especialistas en electrodomésticos Balay en Pamplona y zonas de Navarra. Con más de 20 años reparando esta marca, conocemos sus modelos, sus averías más frecuentes y dónde conseguir los repuestos.',
     electrodomesticos: [
       'Lavadoras Balay',
       'Lavavajillas Balay',
@@ -131,7 +131,7 @@ export const MARCAS_SEO: Marca[] = [
     title: 'Servicio Técnico Miele Pamplona | Servitec Nafarroa',
     description: 'Técnico Miele independiente en Pamplona y Navarra. Reparamos lavadoras, lavavajillas y electrodomésticos Miele. Presupuesto sin compromiso. Llama: 634 006 304.',
     h1: 'Servicio técnico Miele en Pamplona',
-    intro: 'Miele es la marca de electrodomésticos premium por excelencia, conocida por su durabilidad y tecnología avanzada. En Servitec Nafarroa reparamos electrodomésticos Miele en Pamplona y toda Navarra con la formación y experiencia que exige esta marca. Una reparación bien hecha puede alargar la vida de tu Miele décadas más.',
+    intro: 'Miele es la marca de electrodomésticos premium por excelencia, conocida por su durabilidad y tecnología avanzada. En Servitec Nafarroa reparamos electrodomésticos Miele en Pamplona y zonas de Navarra con la formación y experiencia que exige esta marca. Una reparación bien hecha puede alargar la vida de tu Miele décadas más.',
     electrodomesticos: [
       'Lavadoras Miele',
       'Secadoras Miele',
@@ -168,7 +168,7 @@ export const MARCAS_SEO: Marca[] = [
     title: 'Servicio Técnico AEG Pamplona | Servitec Nafarroa',
     description: 'Técnico AEG independiente en Pamplona y Navarra. Reparamos lavadoras, lavavajillas, frigoríficos AEG y más. Servicio a domicilio 365 días. Llama: 634 006 304.',
     h1: 'Servicio técnico AEG en Pamplona',
-    intro: 'AEG es una marca premium del grupo Electrolux, reconocida por su tecnología innovadora y diseño elegante. En Servitec Nafarroa reparamos electrodomésticos AEG en Pamplona y toda Navarra. Nuestra experiencia con la electrónica avanzada de AEG nos permite diagnosticar y resolver la mayoría de averías en una sola visita.',
+    intro: 'AEG es una marca premium del grupo Electrolux, reconocida por su tecnología innovadora y diseño elegante. En Servitec Nafarroa reparamos electrodomésticos AEG en Pamplona y zonas de Navarra. Nuestra experiencia con la electrónica avanzada de AEG nos permite diagnosticar y resolver la mayoría de averías en una sola visita.',
     electrodomesticos: [
       'Lavadoras AEG',
       'Lavavajillas AEG',
@@ -205,7 +205,7 @@ export const MARCAS_SEO: Marca[] = [
     title: 'Servicio Técnico Samsung Pamplona | Servitec Nafarroa',
     description: 'Técnico Samsung independiente en Pamplona y Navarra. Reparamos lavadoras, frigoríficos y electrodomésticos Samsung. 365 días. Llama: 634 006 304.',
     h1: 'Servicio técnico Samsung en Pamplona',
-    intro: 'Los electrodomésticos Samsung combinan tecnología conectada y diseño moderno. En Servitec Nafarroa reparamos lavadoras, frigoríficos americanos, lavavajillas y otros electrodomésticos Samsung en Pamplona y toda Navarra. Experiencia con los modelos más recientes de lavadora AddWash, frigoríficos Family Hub y placas FlexZone.',
+    intro: 'Los electrodomésticos Samsung combinan tecnología conectada y diseño moderno. En Servitec Nafarroa reparamos lavadoras, frigoríficos americanos, lavavajillas y otros electrodomésticos Samsung en Pamplona y zonas de Navarra. Experiencia con los modelos más recientes de lavadora AddWash, frigoríficos Family Hub y placas FlexZone.',
     electrodomesticos: [
       'Lavadoras Samsung',
       'Frigoríficos Samsung',
@@ -241,7 +241,7 @@ export const MARCAS_SEO: Marca[] = [
     title: 'Servicio Técnico LG Pamplona | Servitec Nafarroa',
     description: 'Técnico LG independiente en Pamplona y Navarra. Reparamos lavadoras, frigoríficos, lavavajillas LG y más. Servicio el mismo día. Llama: 634 006 304.',
     h1: 'Servicio técnico LG en Pamplona',
-    intro: 'LG es una de las marcas coreanas más presentes en los hogares españoles, reconocida por sus lavadoras con motor inverter y frigoríficos Door-in-Door. En Servitec Nafarroa reparamos electrodomésticos LG en Pamplona y toda Navarra, con experiencia en sus últimas generaciones de lavadoras TwinWash y frigoríficos InstaView.',
+    intro: 'LG es una de las marcas coreanas más presentes en los hogares españoles, reconocida por sus lavadoras con motor inverter y frigoríficos Door-in-Door. En Servitec Nafarroa reparamos electrodomésticos LG en Pamplona y zonas de Navarra, con experiencia en sus últimas generaciones de lavadoras TwinWash y frigoríficos InstaView.',
     electrodomesticos: [
       'Lavadoras LG',
       'Frigoríficos LG',
@@ -276,7 +276,7 @@ export const MARCAS_SEO: Marca[] = [
     title: 'Servicio Técnico Electrolux Pamplona | Servitec Nafarroa',
     description: 'Técnico Electrolux independiente en Pamplona y Navarra. Reparamos lavadoras, lavavajillas y electrodomésticos Electrolux. 365 días. Llama: 634 006 304.',
     h1: 'Servicio técnico Electrolux en Pamplona',
-    intro: 'Electrolux es una marca sueca con décadas de historia en electrodomésticos de calidad. En Servitec Nafarroa reparamos electrodomésticos Electrolux en Pamplona y toda Navarra. Somos técnicos independientes con amplia experiencia en los modelos más recientes de esta marca, desde lavadoras SteamCare hasta frigoríficos FreshPlus.',
+    intro: 'Electrolux es una marca sueca con décadas de historia en electrodomésticos de calidad. En Servitec Nafarroa reparamos electrodomésticos Electrolux en Pamplona y zonas de Navarra. Somos técnicos independientes con amplia experiencia en los modelos más recientes de esta marca, desde lavadoras SteamCare hasta frigoríficos FreshPlus.',
     electrodomesticos: [
       'Lavadoras Electrolux',
       'Lavavajillas Electrolux',
@@ -313,7 +313,7 @@ export const MARCAS_SEO: Marca[] = [
     title: 'Servicio Técnico Fagor Pamplona | Servitec Nafarroa',
     description: 'Técnico Fagor en Pamplona y Navarra. Reparamos lavadoras, lavavajillas y electrodomésticos Fagor. Repuestos disponibles. 365 días. Llama: 634 006 304.',
     h1: 'Servicio técnico Fagor en Pamplona',
-    intro: 'Fagor es una marca española de origen vasco con gran implantación en Navarra. Aunque la marca pasó por una reestructuración, seguimos reparando electrodomésticos Fagor en Pamplona y toda Navarra. Disponemos de repuestos para modelos de los últimos 15 años y conocemos a fondo su tecnología.',
+    intro: 'Fagor es una marca española de origen vasco con gran implantación en Navarra. Aunque la marca pasó por una reestructuración, seguimos reparando electrodomésticos Fagor en Pamplona y zonas de Navarra. Disponemos de repuestos para modelos de los últimos 15 años y conocemos a fondo su tecnología.',
     electrodomesticos: [
       'Lavadoras Fagor',
       'Lavavajillas Fagor',
@@ -349,7 +349,7 @@ export const MARCAS_SEO: Marca[] = [
     title: 'Servicio Técnico Beko Pamplona | Servitec Nafarroa',
     description: 'Técnico Beko en Pamplona y Navarra. Reparamos lavadoras, frigoríficos, lavavajillas Beko y más. Servicio el mismo día. Llama: 634 006 304.',
     h1: 'Servicio técnico Beko en Pamplona',
-    intro: 'Beko es una marca turca de gran calidad-precio con cada vez más presencia en los hogares navarros. En Servitec Nafarroa reparamos electrodomésticos Beko en Pamplona y toda Navarra. Conocemos bien sus modelos más vendidos y tenemos acceso a repuestos originales para una reparación rápida.',
+    intro: 'Beko es una marca turca de gran calidad-precio con cada vez más presencia en los hogares navarros. En Servitec Nafarroa reparamos electrodomésticos Beko en Pamplona y zonas de Navarra. Conocemos bien sus modelos más vendidos y tenemos acceso a repuestos originales para una reparación rápida.',
     electrodomesticos: [
       'Lavadoras Beko',
       'Frigoríficos Beko',
@@ -385,7 +385,7 @@ export const MARCAS_SEO: Marca[] = [
     title: 'Servicio Técnico Zanussi Pamplona | Servitec Nafarroa',
     description: 'Técnico Zanussi en Pamplona y Navarra. Reparamos lavadoras, lavavajillas y electrodomésticos Zanussi. 365 días. Llama: 634 006 304.',
     h1: 'Servicio técnico Zanussi en Pamplona',
-    intro: 'Zanussi es una marca italiana del grupo Electrolux con larga trayectoria en el mercado español. En Servitec Nafarroa reparamos electrodomésticos Zanussi en Pamplona y toda Navarra. La tecnología Zanussi comparte plataforma con Electrolux y AEG, lo que nos permite diagnósticos precisos y reparaciones eficientes.',
+    intro: 'Zanussi es una marca italiana del grupo Electrolux con larga trayectoria en el mercado español. En Servitec Nafarroa reparamos electrodomésticos Zanussi en Pamplona y zonas de Navarra. La tecnología Zanussi comparte plataforma con Electrolux y AEG, lo que nos permite diagnósticos precisos y reparaciones eficientes.',
     electrodomesticos: [
       'Lavadoras Zanussi',
       'Lavavajillas Zanussi',
@@ -420,7 +420,7 @@ export const MARCAS_SEO: Marca[] = [
     title: 'Servicio Técnico Teka Pamplona | Servitec Nafarroa',
     description: 'Técnico Teka en Pamplona y Navarra. Reparamos hornos, campanas, placas y electrodomésticos Teka. 365 días al año. Llama: 634 006 304.',
     h1: 'Servicio técnico Teka en Pamplona',
-    intro: 'Teka es una marca española con gran presencia en cocinas equipadas. En Servitec Nafarroa reparamos electrodomésticos Teka en Pamplona y toda Navarra, especialmente hornos, campanas extractoras y placas de cocción, que son los productos estrella de esta marca.',
+    intro: 'Teka es una marca española con gran presencia en cocinas equipadas. En Servitec Nafarroa reparamos electrodomésticos Teka en Pamplona y zonas de Navarra, especialmente hornos, campanas extractoras y placas de cocción, que son los productos estrella de esta marca.',
     electrodomesticos: [
       'Hornos Teka',
       'Campanas extractoras Teka',
@@ -492,7 +492,7 @@ export const MARCAS_SEO: Marca[] = [
     title: 'Servicio Técnico Cata Pamplona | Servitec Nafarroa',
     description: 'Técnico Cata en Pamplona y Navarra. Reparamos campanas extractoras, hornos y electrodomésticos Cata. Mismo día. Llama: 634 006 304.',
     h1: 'Servicio técnico Cata en Pamplona',
-    intro: 'Cata es una marca española especializada en campanas extractoras y electrodomésticos de cocina. En Servitec Nafarroa reparamos campanas, hornos y placas Cata en Pamplona y toda Navarra. Nuestra experiencia con los motores y la electrónica de Cata nos permite resolver la mayoría de averías en la primera visita.',
+    intro: 'Cata es una marca española especializada en campanas extractoras y electrodomésticos de cocina. En Servitec Nafarroa reparamos campanas, hornos y placas Cata en Pamplona y zonas de Navarra. Nuestra experiencia con los motores y la electrónica de Cata nos permite resolver la mayoría de averías en la primera visita.',
     electrodomesticos: [
       'Campanas extractoras Cata',
       'Hornos Cata',
@@ -562,7 +562,7 @@ export const MARCAS_SEO: Marca[] = [
     title: 'Servicio Técnico Daewoo Pamplona | Servitec Nafarroa',
     description: 'Técnico Daewoo en Pamplona y Navarra. Reparamos lavadoras, frigoríficos, microondas y electrodomésticos Daewoo. Mismo día. Llama: 634 006 304.',
     h1: 'Servicio técnico Daewoo en Pamplona',
-    intro: 'Daewoo es una marca coreana con una amplia gama de electrodomésticos del hogar. En Servitec Nafarroa reparamos lavadoras, frigoríficos, microondas y otros electrodomésticos Daewoo en Pamplona y toda Navarra. Nuestra experiencia con la electrónica coreana nos permite diagnosticar y reparar cualquier avería con eficacia.',
+    intro: 'Daewoo es una marca coreana con una amplia gama de electrodomésticos del hogar. En Servitec Nafarroa reparamos lavadoras, frigoríficos, microondas y otros electrodomésticos Daewoo en Pamplona y zonas de Navarra. Nuestra experiencia con la electrónica coreana nos permite diagnosticar y reparar cualquier avería con eficacia.',
     electrodomesticos: [
       'Lavadoras Daewoo',
       'Frigoríficos Daewoo',
@@ -597,7 +597,7 @@ export const MARCAS_SEO: Marca[] = [
     title: 'Servicio Técnico Aspes Pamplona | Servitec Nafarroa',
     description: 'Técnico Aspes en Pamplona y Navarra. Reparamos lavadoras, lavavajillas y electrodomésticos Aspes. Mismo día. Llama: 634 006 304.',
     h1: 'Servicio técnico Aspes en Pamplona',
-    intro: 'Aspes es una marca española de electrodomésticos con larga tradición en hogares navarros. En Servitec Nafarroa reparamos lavadoras, lavavajillas, frigoríficos y otros electrodomésticos Aspes en Pamplona y toda la Comunidad Foral. Conocemos bien estos aparatos y gestionamos piezas originales para cada reparación.',
+    intro: 'Aspes es una marca española de electrodomésticos con larga tradición en hogares navarros. En Servitec Nafarroa reparamos lavadoras, lavavajillas, frigoríficos y otros electrodomésticos Aspes en Pamplona y zonas de Navarra. Conocemos bien estos aparatos y gestionamos piezas originales para cada reparación.',
     electrodomesticos: [
       'Lavadoras Aspes',
       'Lavavajillas Aspes',
@@ -614,7 +614,7 @@ export const MARCAS_SEO: Marca[] = [
     faq: [
       {
         q: '¿Reparáis lavadoras Aspes en Pamplona?',
-        a: 'Sí, somos especialistas en reparación de lavadoras Aspes en Pamplona y toda Navarra. Atendemos cualquier avería: no centrifuga, pierde agua, hace ruido, no enciende.',
+        a: 'Sí, somos especialistas en reparación de lavadoras Aspes en Pamplona y zonas de Navarra. Atendemos cualquier avería: no centrifuga, pierde agua, hace ruido, no enciende.',
       },
       {
         q: '¿Cuánto cuesta reparar un electrodoméstico Aspes?',

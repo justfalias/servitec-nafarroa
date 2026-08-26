@@ -11,7 +11,7 @@ interface Props {
 
 const {
   title = 'Reparación de Electrodomésticos Pamplona | Servitec Nafarroa — +20 años, 365 días',
-  description = 'Técnicos multimarca con +20 años de experiencia en Pamplona y toda Navarra. Reparamos Siemens, Bosch, Balay, Miele, AEG y más. Servicio a domicilio 365 días, festivos incluidos. Llámanos: 634 006 304.',
+  description = 'Técnicos multimarca con +20 años de experiencia en Pamplona y zonas de Navarra. Reparamos Siemens, Bosch, Balay, Miele, AEG y más. Servicio a domicilio 365 días, festivos incluidos. Llámanos: 634 006 304.',
   canonical = 'https://www.servitecnafarroa.com/',
   lcpImage = '/tecnico-hero.webp',
 } = Astro.props
@@ -26,7 +26,7 @@ const jsonLd = {
       "@id": "https://www.servitecnafarroa.com/#business",
       "name": "Servitec Nafarroa",
       "alternateName": ["Servitec Nafarroa SAT", "Servicio Técnico Electrodomésticos Pamplona"],
-      "description": "Servicio técnico independiente multimarca especializado en reparación de electrodomésticos en Pamplona y toda Navarra. +20 años de experiencia. Disponible 365 días.",
+      "description": "Servicio técnico independiente multimarca especializado en reparación de electrodomésticos en Pamplona y zonas de Navarra. +20 años de experiencia. Disponible 365 días.",
       "url": "https://www.servitecnafarroa.com",
       "telephone": "+34634006304",
       "priceRange": "€€",
@@ -42,8 +42,7 @@ const jsonLd = {
         { "@type": "City", "name": "Zizur Mayor" },
         { "@type": "City", "name": "Berriozar" },
         { "@type": "City", "name": "Noáin" },
-        { "@type": "City", "name": "Sarriguren" },
-        { "@type": "AdministrativeArea", "name": "Navarra" }
+        { "@type": "City", "name": "Sarriguren" }
       ],
       "address": {
         "@type": "PostalAddress",
@@ -142,7 +141,7 @@ const jsonLd = {
     <meta property="og:type" content="website" />
     <meta property="og:url" content={canonical} />
     <meta property="og:title" content="Reparación de Electrodomésticos en Pamplona — Servitec Nafarroa" />
-    <meta property="og:description" content="Técnicos multimarca con +20 años de experiencia. Servicio a domicilio en toda Navarra, 365 días al año, festivos incluidos. 4,7★ · 207 opiniones Google." />
+    <meta property="og:description" content="Técnicos multimarca con +20 años de experiencia. Servicio a domicilio en Pamplona y zonas de Navarra, 365 días al año, festivos incluidos. 4,7★ · 207 opiniones Google." />
     <meta property="og:image" content={ogImage} />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />

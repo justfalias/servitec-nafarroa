@@ -37,7 +37,7 @@ const ZONAS = [
   // Pamplona y comarca
   'Pamplona','Barañáin','Burlada','Huarte','Villava','Ansoáin','Zizur Mayor','Berriozar','Cizur','Noáin','Sarriguren','Beriáin','Orkoien','Galar',
   // Navarra media y ribera
-  'Tudela','Estella','Tafalla','Olite','Sangüesa','Aoiz','Peralta','Lodosa','Milagro','Caparroso','Falces','Marcilla',
+  'Estella','Tafalla','Olite','Sangüesa','Aoiz',
   // Navarra norte
   'Alsasua','Irurtzun','Lekunberri','Baztan','Elizondo','Lesaka','Bera','Santesteban',
 ]
@@ -76,7 +76,7 @@ const MARCAS = [
     {
       "@type": "Question",
       "name": "¿Reparáis electrodomésticos Siemens, Bosch y Balay en Pamplona?",
-      "acceptedAnswer": { "@type": "Answer", "text": "Sí, somos especialistas en Siemens, Bosch y Balay. También reparamos Miele, AEG, Electrolux, Samsung, LG, Fagor, Beko, Zanussi, Teka, Edesa, Cata y más marcas en Pamplona y toda Navarra." }
+      "acceptedAnswer": { "@type": "Answer", "text": "Sí, somos especialistas en Siemens, Bosch y Balay. También reparamos Miele, AEG, Electrolux, Samsung, LG, Fagor, Beko, Zanussi, Teka, Edesa, Cata y más marcas en Pamplona y zonas de Navarra." }
     },
     {
       "@type": "Question",
@@ -86,7 +86,7 @@ const MARCAS = [
     {
       "@type": "Question",
       "name": "¿A qué zonas de Navarra llegáis?",
-      "acceptedAnswer": { "@type": "Answer", "text": "Cubrimos Pamplona y toda Navarra: Barañáin, Burlada, Huarte, Villava, Ansoáin, Zizur Mayor, Berriozar, Cizur, Noáin, Sarriguren, Beriáin y más municipios." }
+      "acceptedAnswer": { "@type": "Answer", "text": "Cubrimos Pamplona y zonas de Navarra: Barañáin, Burlada, Huarte, Villava, Ansoáin, Zizur Mayor, Berriozar, Cizur, Noáin, Sarriguren, Beriáin y más municipios." }
     }
   ]
 })} />
@@ -318,7 +318,7 @@ const MARCAS = [
         </h1>
 
         <p style="font-size:1.1rem;color:#94a3b8;line-height:1.8;margin-bottom:40px;max-width:480px;">
-          Técnicos independientes multimarca con <strong style="color:#cbd5e1;">+20 años de experiencia</strong>. Servicio a domicilio en toda Navarra, incluso festivos.
+          Técnicos independientes multimarca con <strong style="color:#cbd5e1;">+20 años de experiencia</strong>. Servicio a domicilio en Pamplona y zonas de Navarra, incluso festivos.
         </p>
 
         <div style="display:flex;flex-wrap:wrap;gap:12px;margin-bottom:48px;">
@@ -697,7 +697,7 @@ if (track && dots.length) {
   <div style="max-width:900px;margin:0 auto;padding:0 24px;text-align:center;">
     <span class="section-label">Contacto</span>
     <h2 class="section-title" style="margin-bottom:16px;">¿Electrodoméstico averiado?<br/>Llámanos o escríbenos.</h2>
-    <p style="color:#64748b;line-height:1.8;margin-bottom:56px;max-width:520px;margin-left:auto;margin-right:auto;">Respondemos rápido. Todos los días de 8:00 a 20:00, festivos incluidos. Atendemos toda Navarra.</p>
+    <p style="color:#64748b;line-height:1.8;margin-bottom:56px;max-width:520px;margin-left:auto;margin-right:auto;">Respondemos rápido. Todos los días de 8:00 a 20:00, festivos incluidos. Atendemos Pamplona y zonas de Navarra.</p>
 
     <div style="display:flex;flex-wrap:wrap;gap:20px;justify-content:center;margin-bottom:56px;">
       <!-- Teléfono -->
@@ -733,7 +733,7 @@ if (track && dots.length) {
     <div style="display:flex;flex-wrap:wrap;justify-content:center;gap:24px;">
       {[
         ['Todos los días · 8:00–20:00', 'M12 2a10 10 0 1 0 0 20A10 10 0 0 0 12 2zm.5 5v6l4 2-.7 1.2L11 14V7h1.5z'],
-        ['Pamplona y toda Navarra', 'M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z'],
+        ['Pamplona y zonas de Navarra', 'M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z'],
         ['Disponible festivos y fines de semana', 'M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z'],
       ].map(([txt, path]) => (
         <div style="display:flex;align-items:center;gap:8px;">
@@ -748,7 +748,7 @@ if (track && dots.length) {
 <!-- ZONAS -->
 <section style="padding:64px 0;background:#f8fafc;border-top:1px solid #f1f5f9;">
   <div style="max-width:1200px;margin:0 auto;padding:0 24px;text-align:center;">
-    <p style="color:#475569;font-weight:700;font-size:.65rem;letter-spacing:.16em;text-transform:uppercase;margin-bottom:24px;">Servicio técnico a domicilio en toda Navarra</p>
+    <p style="color:#475569;font-weight:700;font-size:.65rem;letter-spacing:.16em;text-transform:uppercase;margin-bottom:24px;">Servicio técnico a domicilio en Pamplona y zonas de Navarra</p>
     <div style="display:flex;flex-wrap:wrap;justify-content:center;gap:8px;">
       {ZONAS.map(z => {
         const slug = zonaSlugs.get(z)
@@ -767,10 +767,10 @@ if (track && dots.length) {
     <div style="display:flex;flex-direction:column;gap:8px;">
       {[
         { q: '¿Cuánto cuesta reparar una lavadora en Pamplona?', a: 'La mayoría de reparaciones están entre 60€ y 180€ incluyendo mano de obra y piezas. Siempre damos presupuesto antes de empezar.' },
-        { q: '¿Reparáis electrodomésticos Siemens en Pamplona?', a: 'Sí, somos especialistas en Siemens, Bosch y Balay en Pamplona y toda Navarra. También reparamos Miele, AEG, Electrolux, Samsung, LG, Fagor, Beko y más marcas.' },
+        { q: '¿Reparáis electrodomésticos Siemens en Pamplona?', a: 'Sí, somos especialistas en Siemens, Bosch y Balay en Pamplona y zonas de Navarra. También reparamos Miele, AEG, Electrolux, Samsung, LG, Fagor, Beko y más marcas.' },
         { q: '¿Cuánto tarda la reparación?', a: 'El 90% de los casos se resuelven en la primera visita a domicilio. Trabajamos con piezas de repuesto de calidad y un amplio stock para no hacer esperar.' },
         { q: '¿Trabajáis festivos y fines de semana?', a: 'Sí. Disponibles los 365 días del año, incluyendo festivos y fines de semana. Un electrodoméstico averiado no entiende de calendarios.' },
-        { q: '¿A qué zonas de Navarra llegáis?', a: 'Cubrimos toda la Comunidad Foral de Navarra: Pamplona y su comarca (Barañáin, Burlada, Huarte, Villava, Zizur Mayor, Berriozar…), la Navarra media (Tafalla, Olite, Estella, Sangüesa), la Ribera (Tudela, Peralta, Lodosa, Caparroso) y la zona norte (Alsasua, Irurtzun, Baztan, Elizondo, Bera). Si no ves tu municipio, llámanos.' },
+        { q: '¿A qué zonas de Navarra llegáis?', a: 'Cubrimos Pamplona y varias zonas de Navarra: la comarca de Pamplona (Barañáin, Burlada, Huarte, Villava, Zizur Mayor, Berriozar…), la Navarra media (Tafalla, Olite, Estella, Sangüesa) y la zona norte (Alsasua, Irurtzun, Baztan, Elizondo, Bera). Si no ves tu municipio, llámanos para confirmar disponibilidad.' },
       ].map(faq => (
         <details style="background:#f8fafc;border-radius:16px;border:1.5px solid #e2e8f0;overflow:hidden;" class="group">
           <summary style="padding:20px 24px;font-weight:700;color:#0f172a;cursor:pointer;display:flex;justify-content:space-between;align-items:center;font-size:.95rem;list-style:none;">
