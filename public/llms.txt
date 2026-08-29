@@ -19,8 +19,8 @@ Siemens, Bosch, Balay, Miele, AEG, Electrolux, Fagor, Samsung, LG, Beko, Zanussi
 
 ## Tarifas
 
-- Desplazamiento + diagnóstico + presupuesto: 40 € + IVA
-- Mano de obra de reparación: 20 € + IVA
+- Desplazamiento + diagnóstico + presupuesto: 45 € + IVA
+- Mano de obra de reparación: 30 € + IVA
 - Repuestos: según fabricante (se informa antes de iniciar la reparación)
 
 ## Zona de cobertura

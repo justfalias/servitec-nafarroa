@@ -41,7 +41,7 @@ export const MARCAS_SEO: Marca[] = [
       },
       {
         q: '¿Cuánto cuesta reparar un electrodoméstico Siemens en Pamplona?',
-        a: 'El diagnóstico a domicilio cuesta 40 € + IVA. La reparación incluye 20 € + IVA de mano de obra más el repuesto si es necesario. La mayoría de reparaciones de electrodomésticos Siemens están entre 60 € y 160 €.',
+        a: 'El diagnóstico a domicilio cuesta 45 € + IVA. La reparación incluye 30 € + IVA de mano de obra más el repuesto si es necesario. La mayoría de reparaciones de electrodomésticos Siemens están entre 60 € y 160 €.',
       },
       {
         q: '¿Tenéis repuestos originales Siemens?',
@@ -79,7 +79,7 @@ export const MARCAS_SEO: Marca[] = [
       },
       {
         q: '¿Cuánto cuesta reparar un electrodoméstico Bosch en Pamplona?',
-        a: 'El diagnóstico a domicilio cuesta 40 € + IVA. La reparación incluye 20 € + IVA de mano de obra más el repuesto si es necesario. La mayoría de reparaciones de electrodomésticos Bosch están entre 60 € y 150 €.',
+        a: 'El diagnóstico a domicilio cuesta 45 € + IVA. La reparación incluye 30 € + IVA de mano de obra más el repuesto si es necesario. La mayoría de reparaciones de electrodomésticos Bosch están entre 60 € y 150 €.',
       },
       {
         q: '¿Reparáis lavadoras Bosch con error E18 o F21?',
@@ -117,7 +117,7 @@ export const MARCAS_SEO: Marca[] = [
       },
       {
         q: '¿Cuánto cuesta reparar un electrodoméstico Balay en Pamplona?',
-        a: 'El diagnóstico a domicilio cuesta 40 € + IVA, más 20 € + IVA de mano de obra y el repuesto si es necesario. La mayoría de reparaciones Balay están entre 60 € y 150 €.',
+        a: 'El diagnóstico a domicilio cuesta 45 € + IVA, más 30 € + IVA de mano de obra y el repuesto si es necesario. La mayoría de reparaciones Balay están entre 60 € y 150 €.',
       },
       {
         q: '¿Mi lavadora Balay no centrifuga, ¿tiene solución?',
@@ -154,7 +154,7 @@ export const MARCAS_SEO: Marca[] = [
       },
       {
         q: '¿Cuánto cuesta reparar un electrodoméstico Miele en Pamplona?',
-        a: 'El diagnóstico cuesta 40 € + IVA. Los electrodomésticos Miele tienen piezas algo más caras por su calidad premium, pero la reparación suele estar entre 80 € y 200 €. Te damos presupuesto exacto antes de empezar.',
+        a: 'El diagnóstico cuesta 45 € + IVA. Los electrodomésticos Miele tienen piezas algo más caras por su calidad premium, pero la reparación suele estar entre 80 € y 200 €. Te damos presupuesto exacto antes de empezar.',
       },
       {
         q: '¿Tenéis repuestos originales Miele?',
@@ -191,7 +191,7 @@ export const MARCAS_SEO: Marca[] = [
       },
       {
         q: '¿Cuánto cuesta reparar un electrodoméstico AEG en Pamplona?',
-        a: 'El diagnóstico a domicilio cuesta 40 € + IVA, más 20 € + IVA de mano de obra y el repuesto. Las reparaciones AEG suelen estar entre 65 € y 170 €.',
+        a: 'El diagnóstico a domicilio cuesta 45 € + IVA, más 30 € + IVA de mano de obra y el repuesto. Las reparaciones AEG suelen estar entre 65 € y 170 €.',
       },
       {
         q: '¿Reparáis lavadoras AEG de carga superior?',
@@ -227,7 +227,7 @@ export const MARCAS_SEO: Marca[] = [
       },
       {
         q: '¿Cuánto cuesta reparar un electrodoméstico Samsung en Pamplona?',
-        a: 'El diagnóstico cuesta 40 € + IVA. Las reparaciones Samsung suelen estar entre 55 € y 150 €. Para los modelos premium con pantalla táctil, el módulo puede tener mayor coste.',
+        a: 'El diagnóstico cuesta 45 € + IVA. Las reparaciones Samsung suelen estar entre 55 € y 150 €. Para los modelos premium con pantalla táctil, el módulo puede tener mayor coste.',
       },
       {
         q: '¿Mi lavadora Samsung muestra el error 4C o 4E, ¿tiene solución?',
@@ -262,7 +262,7 @@ export const MARCAS_SEO: Marca[] = [
       },
       {
         q: '¿Cuánto cuesta reparar un electrodoméstico LG en Pamplona?',
-        a: 'El diagnóstico a domicilio cuesta 40 € + IVA, más 20 € + IVA de mano de obra y el repuesto. Las reparaciones LG suelen estar entre 60 € y 150 €.',
+        a: 'El diagnóstico a domicilio cuesta 45 € + IVA, más 30 € + IVA de mano de obra y el repuesto. Las reparaciones LG suelen estar entre 60 € y 150 €.',
       },
       {
         q: '¿Reparáis frigoríficos LG que no enfrían?',
@@ -299,7 +299,7 @@ export const MARCAS_SEO: Marca[] = [
       },
       {
         q: '¿Cuánto cuesta reparar un electrodoméstico Electrolux en Pamplona?',
-        a: 'El diagnóstico cuesta 40 € + IVA. Las reparaciones Electrolux suelen estar entre 60 € y 150 €, según la avería y el modelo.',
+        a: 'El diagnóstico cuesta 45 € + IVA. Las reparaciones Electrolux suelen estar entre 60 € y 150 €, según la avería y el modelo.',
       },
       {
         q: '¿Reparáis lavadoras Electrolux de carga superior?',
@@ -335,7 +335,7 @@ export const MARCAS_SEO: Marca[] = [
       },
       {
         q: '¿Cuánto cuesta reparar un electrodoméstico Fagor en Pamplona?',
-        a: 'El diagnóstico a domicilio cuesta 40 € + IVA. Las reparaciones Fagor suelen estar entre 55 € y 130 €.',
+        a: 'El diagnóstico a domicilio cuesta 45 € + IVA. Las reparaciones Fagor suelen estar entre 55 € y 130 €.',
       },
       {
         q: '¿Dónde consigo repuestos para mi Fagor?',
@@ -371,7 +371,7 @@ export const MARCAS_SEO: Marca[] = [
       },
       {
         q: '¿Cuánto cuesta reparar un electrodoméstico Beko en Pamplona?',
-        a: 'El diagnóstico cuesta 40 € + IVA. Las reparaciones Beko suelen estar entre 55 € y 130 €, siendo una de las marcas con mejor relación entre coste de reparación y precio del aparato nuevo.',
+        a: 'El diagnóstico cuesta 45 € + IVA. Las reparaciones Beko suelen estar entre 55 € y 130 €, siendo una de las marcas con mejor relación entre coste de reparación y precio del aparato nuevo.',
       },
       {
         q: '¿Merece la pena reparar un Beko o es mejor comprarlo nuevo?',
@@ -406,7 +406,7 @@ export const MARCAS_SEO: Marca[] = [
       },
       {
         q: '¿Cuánto cuesta reparar un electrodoméstico Zanussi en Pamplona?',
-        a: 'El diagnóstico cuesta 40 € + IVA. Las reparaciones Zanussi suelen estar entre 55 € y 140 €.',
+        a: 'El diagnóstico cuesta 45 € + IVA. Las reparaciones Zanussi suelen estar entre 55 € y 140 €.',
       },
       {
         q: '¿Zanussi y Electrolux comparten repuestos?',
@@ -443,7 +443,7 @@ export const MARCAS_SEO: Marca[] = [
       },
       {
         q: '¿Cuánto cuesta reparar un electrodoméstico Teka en Pamplona?',
-        a: 'El diagnóstico cuesta 40 € + IVA. Las reparaciones Teka suelen estar entre 55 € y 130 €.',
+        a: 'El diagnóstico cuesta 45 € + IVA. Las reparaciones Teka suelen estar entre 55 € y 130 €.',
       },
       {
         q: '¿Tenéis repuestos para hornos Teka antiguos?',
@@ -478,7 +478,7 @@ export const MARCAS_SEO: Marca[] = [
       },
       {
         q: '¿Cuánto cuesta reparar un electrodoméstico Edesa en Pamplona?',
-        a: 'El diagnóstico cuesta 40 € + IVA. Las reparaciones Edesa suelen estar entre 55 € y 130 €.',
+        a: 'El diagnóstico cuesta 45 € + IVA. Las reparaciones Edesa suelen estar entre 55 € y 130 €.',
       },
       {
         q: '¿Encontráis repuestos para Edesa fácilmente?',
@@ -514,7 +514,7 @@ export const MARCAS_SEO: Marca[] = [
       },
       {
         q: '¿Cuánto cuesta reparar una campana Cata en Pamplona?',
-        a: 'El diagnóstico cuesta 40 € + IVA. La reparación de campanas Cata suele estar entre 55 € y 120 €. El cambio de motor es la reparación más habitual.',
+        a: 'El diagnóstico cuesta 45 € + IVA. La reparación de campanas Cata suele estar entre 55 € y 120 €. El cambio de motor es la reparación más habitual.',
       },
       {
         q: '¿Tenéis repuestos Cata originales?',
@@ -548,7 +548,7 @@ export const MARCAS_SEO: Marca[] = [
       },
       {
         q: '¿Cuánto cuesta reparar una campana Elica en Pamplona?',
-        a: 'El diagnóstico cuesta 40 € + IVA. La reparación típica de una campana Elica (motor o electrónica) está entre 60 € y 130 €. Te damos presupuesto sin compromiso antes de comenzar.',
+        a: 'El diagnóstico cuesta 45 € + IVA. La reparación típica de una campana Elica (motor o electrónica) está entre 60 € y 130 €. Te damos presupuesto sin compromiso antes de comenzar.',
       },
       {
         q: '¿Tenéis repuestos Elica originales?',
@@ -583,7 +583,7 @@ export const MARCAS_SEO: Marca[] = [
       },
       {
         q: '¿Cuánto cuesta reparar un electrodoméstico Daewoo en Pamplona?',
-        a: 'El diagnóstico cuesta 40 € + IVA. El coste total depende de la avería, pero la mayoría de reparaciones están entre 55 € y 120 €. Siempre informamos del precio antes de actuar.',
+        a: 'El diagnóstico cuesta 45 € + IVA. El coste total depende de la avería, pero la mayoría de reparaciones están entre 55 € y 120 €. Siempre informamos del precio antes de actuar.',
       },
       {
         q: '¿Disponéis de repuestos Daewoo?',
@@ -618,7 +618,7 @@ export const MARCAS_SEO: Marca[] = [
       },
       {
         q: '¿Cuánto cuesta reparar un electrodoméstico Aspes?',
-        a: 'El diagnóstico cuesta 40 € + IVA. La reparación de electrodomésticos Aspes suele estar entre 55 € y 110 €. Te damos presupuesto antes de comenzar sin compromiso.',
+        a: 'El diagnóstico cuesta 45 € + IVA. La reparación de electrodomésticos Aspes suele estar entre 55 € y 110 €. Te damos presupuesto antes de comenzar sin compromiso.',
       },
       {
         q: '¿Tenéis repuestos Aspes originales?',

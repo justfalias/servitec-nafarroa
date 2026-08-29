@@ -26,7 +26,7 @@ const faq = [
   },
   {
     q: '¿Cuánto cuesta una reparación urgente?',
-    a: 'El precio es el mismo que cualquier día: desplazamiento + diagnóstico + presupuesto por 40 € + IVA. No aplicamos recargo por urgencia, fin de semana ni festivo. Si aceptas el presupuesto, la mano de obra son 20 € + IVA más el repuesto si fuera necesario.',
+    a: 'El precio es el mismo que cualquier día: desplazamiento + diagnóstico + presupuesto por 45 € + IVA. No aplicamos recargo por urgencia, fin de semana ni festivo. Si aceptas el presupuesto, la mano de obra son 30 € + IVA más el repuesto si fuera necesario.',
   },
   {
     q: '¿Qué hago mientras espero al técnico si el frigorífico no enfría?',
@@ -42,7 +42,7 @@ const faq = [
   },
   {
     q: '¿Y si la avería no tiene solución en el momento?',
-    a: 'Si necesitamos un repuesto específico que no llevamos, lo pedimos y concertamos una segunda visita lo antes posible. En ese caso solo pagas el desplazamiento de la primera visita (40 € + IVA) y la reparación completa cuando volvamos.',
+    a: 'Si necesitamos un repuesto específico que no llevamos, lo pedimos y concertamos una segunda visita lo antes posible. En ese caso solo pagas el desplazamiento de la primera visita (45 € + IVA) y la reparación completa cuando volvamos.',
   },
 ]
 
@@ -218,8 +218,8 @@ const jsonLd = {
     </p>
     <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-bottom:40px;" class="precio-grid">
       {[
-        ['40 € + IVA', 'Desplazamiento + diagnóstico + presupuesto', '#eff6ff', '#1d4ed8'],
-        ['20 € + IVA', 'Mano de obra de reparación', '#f0fdf4', '#16a34a'],
+        ['45 € + IVA', 'Desplazamiento + diagnóstico + presupuesto', '#eff6ff', '#1d4ed8'],
+        ['30 € + IVA', 'Mano de obra de reparación', '#f0fdf4', '#16a34a'],
         ['A consultar', 'Piezas de repuesto (según fabricante)', '#fef3c7', '#d97706'],
       ].map(([precio, concepto, bg, col]) => (
         <div style={`background:${bg};border-radius:16px;padding:24px;`}>

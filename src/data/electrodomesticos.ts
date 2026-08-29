@@ -38,7 +38,7 @@ export const ELECTRODOMESTICOS: Electrodomestico[] = [
     faq: [
       {
         q: '¿Cuánto cuesta reparar una lavadora en Pamplona?',
-        a: 'El desplazamiento, diagnóstico y presupuesto tienen un coste de 40 € + IVA. La mano de obra de reparación son 20 € + IVA adicionales, más el coste del repuesto si es necesario. La mayoría de reparaciones de lavadora están entre 60 € y 150 €. Si decides no reparar, solo pagas el desplazamiento.',
+        a: 'El desplazamiento, diagnóstico y presupuesto tienen un coste de 45 € + IVA. La mano de obra de reparación son 30 € + IVA adicionales, más el coste del repuesto si es necesario. La mayoría de reparaciones de lavadora están entre 60 € y 150 €. Si decides no reparar, solo pagas el desplazamiento.',
       },
       {
         q: '¿Reparáis lavadoras Siemens, Bosch y Balay en Pamplona?',
@@ -76,7 +76,7 @@ export const ELECTRODOMESTICOS: Electrodomestico[] = [
     faq: [
       {
         q: '¿Cuánto cuesta reparar un lavavajillas en Pamplona?',
-        a: 'El desplazamiento y diagnóstico cuesta 40 € + IVA, más 20 € + IVA de mano de obra si se repara, más el repuesto si fuera necesario. La mayoría de reparaciones de lavavajillas están entre 60 € y 130 €.',
+        a: 'El desplazamiento y diagnóstico cuesta 45 € + IVA, más 30 € + IVA de mano de obra si se repara, más el repuesto si fuera necesario. La mayoría de reparaciones de lavavajillas están entre 60 € y 130 €.',
       },
       {
         q: '¿Mi lavavajillas Bosch pierde agua, ¿puede tener solución?',
@@ -114,7 +114,7 @@ export const ELECTRODOMESTICOS: Electrodomestico[] = [
     faq: [
       {
         q: '¿Cuánto cuesta reparar un frigorífico en Pamplona?',
-        a: 'El diagnóstico a domicilio cuesta 40 € + IVA. La reparación más la mano de obra (20 € + IVA) suele quedar entre 60 € y 180 € según la avería. La recarga de gas tiene coste adicional según la cantidad necesaria.',
+        a: 'El diagnóstico a domicilio cuesta 45 € + IVA. La reparación más la mano de obra (30 € + IVA) suele quedar entre 60 € y 180 € según la avería. La recarga de gas tiene coste adicional según la cantidad necesaria.',
       },
       {
         q: '¿Reparáis frigoríficos americanos y side-by-side?',
@@ -151,7 +151,7 @@ export const ELECTRODOMESTICOS: Electrodomestico[] = [
     faq: [
       {
         q: '¿Cuánto cuesta reparar un horno en Pamplona?',
-        a: 'El desplazamiento y diagnóstico cuesta 40 € + IVA. La reparación incluye 20 € + IVA de mano de obra más el repuesto. Las reparaciones de horno suelen estar entre 55 € y 140 €.',
+        a: 'El desplazamiento y diagnóstico cuesta 45 € + IVA. La reparación incluye 30 € + IVA de mano de obra más el repuesto. Las reparaciones de horno suelen estar entre 55 € y 140 €.',
       },
       {
         q: '¿Reparáis hornos de gas y eléctricos?',
@@ -189,7 +189,7 @@ export const ELECTRODOMESTICOS: Electrodomestico[] = [
     faq: [
       {
         q: '¿Cuánto cuesta reparar una vitrocerámica en Pamplona?',
-        a: 'El diagnóstico cuesta 40 € + IVA. Las reparaciones habituales (cambio de zona, placa electrónica) suelen quedar entre 60 € y 160 €. El cambio de cristal tiene un coste adicional según el modelo.',
+        a: 'El diagnóstico cuesta 45 € + IVA. Las reparaciones habituales (cambio de zona, placa electrónica) suelen quedar entre 60 € y 160 €. El cambio de cristal tiene un coste adicional según el modelo.',
       },
       {
         q: '¿Se puede reparar una placa de inducción si el cristal está roto?',
@@ -227,7 +227,7 @@ export const ELECTRODOMESTICOS: Electrodomestico[] = [
     faq: [
       {
         q: '¿Cuánto cuesta reparar un microondas en Pamplona?',
-        a: 'El diagnóstico a domicilio cuesta 40 € + IVA. La reparación de microondas suele estar entre 50 € y 100 €. En algunos casos, si la avería no merece la pena económicamente respecto al valor del aparato, te lo indicamos.',
+        a: 'El diagnóstico a domicilio cuesta 45 € + IVA. La reparación de microondas suele estar entre 50 € y 100 €. En algunos casos, si la avería no merece la pena económicamente respecto al valor del aparato, te lo indicamos.',
       },
       {
         q: '¿Es seguro usar un microondas que hace chispas?',
@@ -265,7 +265,7 @@ export const ELECTRODOMESTICOS: Electrodomestico[] = [
     faq: [
       {
         q: '¿Cuánto cuesta reparar una campana extractora en Pamplona?',
-        a: 'El diagnóstico a domicilio cuesta 40 € + IVA. La reparación de campanas suele estar entre 55 € y 120 €. El cambio de motor es la reparación más habitual y costosa.',
+        a: 'El diagnóstico a domicilio cuesta 45 € + IVA. La reparación de campanas suele estar entre 55 € y 120 €. El cambio de motor es la reparación más habitual y costosa.',
       },
       {
         q: '¿Reparáis campanas de isla y campanas integradas en mueble?',
@@ -302,7 +302,7 @@ export const ELECTRODOMESTICOS: Electrodomestico[] = [
     faq: [
       {
         q: '¿Cuánto cuesta reparar una secadora en Pamplona?',
-        a: 'El diagnóstico a domicilio cuesta 40 € + IVA. Las reparaciones de secadora suelen estar entre 65 € y 160 €. Las secadoras de bomba de calor son más complejas y el coste puede ser algo mayor.',
+        a: 'El diagnóstico a domicilio cuesta 45 € + IVA. Las reparaciones de secadora suelen estar entre 65 € y 160 €. Las secadoras de bomba de calor son más complejas y el coste puede ser algo mayor.',
       },
       {
         q: '¿Reparáis secadoras de condensación y de bomba de calor?',
@@ -340,7 +340,7 @@ export const ELECTRODOMESTICOS: Electrodomestico[] = [
     faq: [
       {
         q: '¿Cuánto cuesta reparar un calentador de agua en Pamplona?',
-        a: 'El diagnóstico a domicilio cuesta 40 € + IVA. Las reparaciones más habituales (cambio de resistencia, termostato o ánodo) suelen estar entre 60 € y 130 €. Las fugas en el depósito a veces requieren la sustitución del calentador.',
+        a: 'El diagnóstico a domicilio cuesta 45 € + IVA. Las reparaciones más habituales (cambio de resistencia, termostato o ánodo) suelen estar entre 60 € y 130 €. Las fugas en el depósito a veces requieren la sustitución del calentador.',
       },
       {
         q: '¿Es mejor reparar o cambiar el calentador?',
@@ -377,7 +377,7 @@ export const ELECTRODOMESTICOS: Electrodomestico[] = [
     faq: [
       {
         q: '¿Cuánto cuesta reparar una lavasecadora en Pamplona?',
-        a: 'El desplazamiento, diagnóstico y presupuesto tienen un coste de 40 € + IVA. La mano de obra son 20 € + IVA adicionales, más el coste del repuesto si es necesario. Las lavasecadoras son más complejas que una lavadora sola, y las reparaciones suelen estar entre 70 € y 180 €.',
+        a: 'El desplazamiento, diagnóstico y presupuesto tienen un coste de 45 € + IVA. La mano de obra son 30 € + IVA adicionales, más el coste del repuesto si es necesario. Las lavasecadoras son más complejas que una lavadora sola, y las reparaciones suelen estar entre 70 € y 180 €.',
       },
       {
         q: '¿Es mejor reparar la lavasecadora o comprar una nueva?',
@@ -415,7 +415,7 @@ export const ELECTRODOMESTICOS: Electrodomestico[] = [
     faq: [
       {
         q: '¿Cuánto cuesta reparar un congelador en Pamplona?',
-        a: 'El diagnóstico a domicilio cuesta 40 € + IVA. La reparación más la mano de obra (20 € + IVA) suele quedar entre 60 € y 180 € según la avería. La recarga de gas tiene coste adicional según la cantidad necesaria.',
+        a: 'El diagnóstico a domicilio cuesta 45 € + IVA. La reparación más la mano de obra (30 € + IVA) suele quedar entre 60 € y 180 € según la avería. La recarga de gas tiene coste adicional según la cantidad necesaria.',
       },
       {
         q: '¿Reparáis congeladores arcón (horizontales)?',
@@ -452,7 +452,7 @@ export const ELECTRODOMESTICOS: Electrodomestico[] = [
     faq: [
       {
         q: '¿Cuánto cuesta reparar un termo eléctrico en Pamplona?',
-        a: 'El diagnóstico a domicilio cuesta 40 € + IVA. Las reparaciones más habituales (cambio de resistencia, termostato o ánodo de magnesio) suelen estar entre 60 € y 120 €. Si el depósito tiene fugas, puede ser necesario sustituir el termo completo.',
+        a: 'El diagnóstico a domicilio cuesta 45 € + IVA. Las reparaciones más habituales (cambio de resistencia, termostato o ánodo de magnesio) suelen estar entre 60 € y 120 €. Si el depósito tiene fugas, puede ser necesario sustituir el termo completo.',
       },
       {
         q: '¿Es mejor reparar el termo o cambiarlo por uno nuevo?',

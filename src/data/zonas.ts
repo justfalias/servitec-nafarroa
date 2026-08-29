@@ -24,7 +24,7 @@ export const ZONAS_SEO: Zona[] = [
       },
       {
         q: '¿Cuánto cuesta la visita a domicilio en Barañáin?',
-        a: 'El desplazamiento, diagnóstico y elaboración de presupuesto tiene un coste fijo de 40 € + IVA, independientemente del municipio dentro de la comarca de Pamplona.',
+        a: 'El desplazamiento, diagnóstico y elaboración de presupuesto tiene un coste fijo de 45 € + IVA, independientemente del municipio dentro de la comarca de Pamplona.',
       },
       {
         q: '¿Qué electrodomésticos reparáis en Barañáin?',
@@ -50,7 +50,7 @@ export const ZONAS_SEO: Zona[] = [
       },
       {
         q: '¿Hacéis presupuesto antes de reparar?',
-        a: 'Siempre. Tras el diagnóstico en tu domicilio te damos un presupuesto cerrado. Si no aceptas, solo pagas el desplazamiento (40 € + IVA). Sin sorpresas.',
+        a: 'Siempre. Tras el diagnóstico en tu domicilio te damos un presupuesto cerrado. Si no aceptas, solo pagas el desplazamiento (45 € + IVA). Sin sorpresas.',
       },
     ],
   },
@@ -68,7 +68,7 @@ export const ZONAS_SEO: Zona[] = [
       },
       {
         q: '¿Cuánto cuesta reparar un electrodoméstico en Zizur Mayor?',
-        a: 'El desplazamiento, diagnóstico y presupuesto cuesta 40 € + IVA. La reparación incluye 20 € + IVA de mano de obra más el repuesto si fuera necesario. Sin recargo por distancia.',
+        a: 'El desplazamiento, diagnóstico y presupuesto cuesta 45 € + IVA. La reparación incluye 30 € + IVA de mano de obra más el repuesto si fuera necesario. Sin recargo por distancia.',
       },
       {
         q: '¿Podéis venir un sábado o domingo a Zizur Mayor?',
@@ -86,7 +86,7 @@ export const ZONAS_SEO: Zona[] = [
     faq: [
       {
         q: '¿Atendéis en Huarte y en el Valle de Aranguren?',
-        a: 'Sí, cubrimos Huarte y los municipios del entorno del Valle de Aranguren. El desplazamiento tiene el mismo coste fijo (40 € + IVA) sin recargo por distancia dentro de la comarca.',
+        a: 'Sí, cubrimos Huarte y los municipios del entorno del Valle de Aranguren. El desplazamiento tiene el mismo coste fijo (45 € + IVA) sin recargo por distancia dentro de la comarca.',
       },
       {
         q: '¿Reparáis calentadores y termos en Huarte?',
@@ -116,7 +116,7 @@ export const ZONAS_SEO: Zona[] = [
       },
       {
         q: '¿El precio es el mismo que en Pamplona?',
-        a: 'Exactamente el mismo. No aplicamos recargo por municipio dentro de la cuenca de Pamplona. Desplazamiento + diagnóstico + presupuesto: 40 € + IVA.',
+        a: 'Exactamente el mismo. No aplicamos recargo por municipio dentro de la cuenca de Pamplona. Desplazamiento + diagnóstico + presupuesto: 45 € + IVA.',
       },
     ],
   },
@@ -136,7 +136,7 @@ export const ZONAS_SEO: Zona[] = [
       },
       {
         q: '¿Cuánto cuesta la visita a domicilio en Ansoáin?',
-        a: 'El desplazamiento, diagnóstico y presupuesto tiene un coste fijo de 40 € + IVA, sin recargo por municipio dentro de la comarca de Pamplona.',
+        a: 'El desplazamiento, diagnóstico y presupuesto tiene un coste fijo de 45 € + IVA, sin recargo por municipio dentro de la comarca de Pamplona.',
       },
       {
         q: '¿Reparáis electrodomésticos industriales o solo domésticos?',
@@ -158,7 +158,7 @@ export const ZONAS_SEO: Zona[] = [
       },
       {
         q: '¿El precio es el mismo que en Pamplona?',
-        a: 'Exactamente el mismo. No aplicamos ningún recargo por distancia para municipios de la comarca de Pamplona como Berriozar. Desplazamiento + diagnóstico + presupuesto: 40 € + IVA.',
+        a: 'Exactamente el mismo. No aplicamos ningún recargo por distancia para municipios de la comarca de Pamplona como Berriozar. Desplazamiento + diagnóstico + presupuesto: 45 € + IVA.',
       },
       {
         q: '¿Qué marcas reparáis en Berriozar?',
@@ -176,7 +176,7 @@ export const ZONAS_SEO: Zona[] = [
     faq: [
       {
         q: '¿Cubrís Noáin y el Valle de Elorz?',
-        a: 'Sí, cubrimos Noáin y los municipios del entorno del Valle de Elorz. El desplazamiento tiene el mismo coste fijo (40 € + IVA) sin recargo por distancia.',
+        a: 'Sí, cubrimos Noáin y los municipios del entorno del Valle de Elorz. El desplazamiento tiene el mismo coste fijo (45 € + IVA) sin recargo por distancia.',
       },
       {
         q: '¿Podéis venir hoy a reparar mi lavadora en Noáin?',
@@ -220,7 +220,7 @@ export const ZONAS_SEO: Zona[] = [
     faq: [
       {
         q: '¿Atendéis en Beriáin y el municipio de Aranguren?',
-        a: 'Sí, cubrimos Beriáin y el entorno del municipio de Aranguren. El desplazamiento tiene el mismo coste fijo de 40 € + IVA, sin recargo por municipio.',
+        a: 'Sí, cubrimos Beriáin y el entorno del municipio de Aranguren. El desplazamiento tiene el mismo coste fijo de 45 € + IVA, sin recargo por municipio.',
       },
       {
         q: '¿Reparáis calentadores y termos en Beriáin?',
@@ -248,7 +248,7 @@ export const ZONAS_SEO: Zona[] = [
       },
       {
         q: '¿Cuánto cuesta el desplazamiento a Orkoien?',
-        a: 'El mismo precio que en Pamplona: 40 € + IVA por desplazamiento, diagnóstico y presupuesto. Sin recargos por distancia dentro de la comarca.',
+        a: 'El mismo precio que en Pamplona: 45 € + IVA por desplazamiento, diagnóstico y presupuesto. Sin recargos por distancia dentro de la comarca.',
       },
       {
         q: '¿Reparáis todo tipo de electrodomésticos en Orkoien?',
@@ -266,7 +266,7 @@ export const ZONAS_SEO: Zona[] = [
     faq: [
       {
         q: '¿Cubrís todas las localidades del municipio de Galar?',
-        a: 'Sí, cubrimos Salinas de Pamplona, Cordovilla, Olaz-Chipi, Arlegui y el resto de núcleos del municipio de Galar. El precio de desplazamiento es el mismo para todos: 40 € + IVA.',
+        a: 'Sí, cubrimos Salinas de Pamplona, Cordovilla, Olaz-Chipi, Arlegui y el resto de núcleos del municipio de Galar. El precio de desplazamiento es el mismo para todos: 45 € + IVA.',
       },
       {
         q: '¿Podéis venir hoy a reparar un frigorífico en Galar?',
@@ -314,7 +314,7 @@ export const ZONAS_SEO: Zona[] = [
       },
       {
         q: '¿Cuánto cuesta la visita a domicilio en Estella?',
-        a: 'El diagnóstico y presupuesto es de 40 € + IVA. Para Estella puede aplicarse un suplemento de desplazamiento que te comunicamos antes de confirmar la visita.',
+        a: 'El diagnóstico y presupuesto es de 45 € + IVA. Para Estella puede aplicarse un suplemento de desplazamiento que te comunicamos antes de confirmar la visita.',
       },
       {
         q: '¿Reparáis lavadoras y frigoríficos en Estella?',
@@ -338,7 +338,7 @@ export const ZONAS_SEO: Zona[] = [
       },
       {
         q: '¿Cuánto cuesta la visita en Tafalla?',
-        a: 'El diagnóstico y presupuesto es de 40 € + IVA. Para Tafalla puede aplicarse un suplemento de desplazamiento que te indicamos antes de confirmar la visita.',
+        a: 'El diagnóstico y presupuesto es de 45 € + IVA. Para Tafalla puede aplicarse un suplemento de desplazamiento que te indicamos antes de confirmar la visita.',
       },
       {
         q: '¿Reparáis todas las marcas en Tafalla?',
@@ -360,7 +360,7 @@ export const ZONAS_SEO: Zona[] = [
       },
       {
         q: '¿El precio es el mismo que en Pamplona?',
-        a: 'El diagnóstico es de 40 € + IVA. Para Olite puede aplicarse un suplemento de desplazamiento que te comunicamos antes de confirmar la visita, sin compromiso.',
+        a: 'El diagnóstico es de 45 € + IVA. Para Olite puede aplicarse un suplemento de desplazamiento que te comunicamos antes de confirmar la visita, sin compromiso.',
       },
       {
         q: '¿Reparáis frigoríficos y lavadoras en Olite?',
@@ -382,7 +382,7 @@ export const ZONAS_SEO: Zona[] = [
       },
       {
         q: '¿Cuánto cuesta la visita en Sangüesa?',
-        a: 'El diagnóstico y presupuesto es de 40 € + IVA. Para Sangüesa puede aplicarse un suplemento de desplazamiento que te indicamos antes de confirmar la visita.',
+        a: 'El diagnóstico y presupuesto es de 45 € + IVA. Para Sangüesa puede aplicarse un suplemento de desplazamiento que te indicamos antes de confirmar la visita.',
       },
       {
         q: '¿Reparáis electrodomésticos de todas las marcas en Sangüesa?',
@@ -404,7 +404,7 @@ export const ZONAS_SEO: Zona[] = [
       },
       {
         q: '¿Hay recargo por desplazamiento a Aoiz?',
-        a: 'El diagnóstico es de 40 € + IVA. Para Aoiz puede aplicarse un pequeño suplemento de desplazamiento que te comunicamos antes de confirmar la visita.',
+        a: 'El diagnóstico es de 45 € + IVA. Para Aoiz puede aplicarse un pequeño suplemento de desplazamiento que te comunicamos antes de confirmar la visita.',
       },
       {
         q: '¿Reparáis calentadores de gas en Aoiz?',
@@ -427,7 +427,7 @@ export const ZONAS_SEO: Zona[] = [
       },
       {
         q: '¿Cuánto cuesta la visita a domicilio en Alsasua?',
-        a: 'El diagnóstico y presupuesto es de 40 € + IVA. Para Alsasua puede aplicarse un suplemento de desplazamiento que te indicamos antes de confirmar la visita, sin compromiso.',
+        a: 'El diagnóstico y presupuesto es de 45 € + IVA. Para Alsasua puede aplicarse un suplemento de desplazamiento que te indicamos antes de confirmar la visita, sin compromiso.',
       },
       {
         q: '¿Reparáis electrodomésticos de todas las marcas en Alsasua?',
@@ -449,7 +449,7 @@ export const ZONAS_SEO: Zona[] = [
       },
       {
         q: '¿Cuánto cuesta la visita en Irurtzun?',
-        a: 'El diagnóstico y presupuesto es de 40 € + IVA. Para Irurtzun puede aplicarse un pequeño suplemento de desplazamiento que te indicamos antes de confirmar.',
+        a: 'El diagnóstico y presupuesto es de 45 € + IVA. Para Irurtzun puede aplicarse un pequeño suplemento de desplazamiento que te indicamos antes de confirmar.',
       },
       {
         q: '¿Reparáis calentadores y termos en Irurtzun?',
@@ -471,7 +471,7 @@ export const ZONAS_SEO: Zona[] = [
       },
       {
         q: '¿Cuánto cuesta la visita en Lekunberri?',
-        a: 'El diagnóstico y presupuesto es de 40 € + IVA. Para Lekunberri puede aplicarse un suplemento de desplazamiento que te comunicamos antes de confirmar la visita.',
+        a: 'El diagnóstico y presupuesto es de 45 € + IVA. Para Lekunberri puede aplicarse un suplemento de desplazamiento que te comunicamos antes de confirmar la visita.',
       },
       {
         q: '¿Reparáis electrodomésticos de todas las marcas en Lekunberri?',
@@ -493,7 +493,7 @@ export const ZONAS_SEO: Zona[] = [
       },
       {
         q: '¿Cuánto cuesta la visita en Baztán?',
-        a: 'El diagnóstico es de 40 € + IVA. Para el Valle del Baztán se aplica un suplemento de desplazamiento que te comunicamos antes de confirmar la visita, sin compromiso.',
+        a: 'El diagnóstico es de 45 € + IVA. Para el Valle del Baztán se aplica un suplemento de desplazamiento que te comunicamos antes de confirmar la visita, sin compromiso.',
       },
       {
         q: '¿Reparáis lavadoras y frigoríficos en el Baztán?',
@@ -515,7 +515,7 @@ export const ZONAS_SEO: Zona[] = [
       },
       {
         q: '¿Hay recargo por desplazamiento a Elizondo?',
-        a: 'El diagnóstico es de 40 € + IVA. Para Elizondo se aplica un suplemento de desplazamiento que te indicamos antes de confirmar la visita, sin ningún compromiso.',
+        a: 'El diagnóstico es de 45 € + IVA. Para Elizondo se aplica un suplemento de desplazamiento que te indicamos antes de confirmar la visita, sin ningún compromiso.',
       },
       {
         q: '¿Reparáis electrodomésticos de gama alta en Elizondo?',
@@ -539,7 +539,7 @@ export const ZONAS_SEO: Zona[] = [
       },
       {
         q: '¿Cuánto cuesta la visita en Lesaka?',
-        a: 'El diagnóstico es de 40 € + IVA. Para Lesaka se aplica un suplemento de desplazamiento que te comunicamos antes de confirmar la visita, sin compromiso.',
+        a: 'El diagnóstico es de 45 € + IVA. Para Lesaka se aplica un suplemento de desplazamiento que te comunicamos antes de confirmar la visita, sin compromiso.',
       },
       {
         q: '¿Reparáis electrodomésticos de todas las marcas en Lesaka?',
@@ -561,7 +561,7 @@ export const ZONAS_SEO: Zona[] = [
       },
       {
         q: '¿Hay recargo por desplazamiento a Bera?',
-        a: 'El diagnóstico es de 40 € + IVA. Para Bera se aplica un suplemento de desplazamiento que te indicamos antes de confirmar la visita.',
+        a: 'El diagnóstico es de 45 € + IVA. Para Bera se aplica un suplemento de desplazamiento que te indicamos antes de confirmar la visita.',
       },
       {
         q: '¿Reparáis lavadoras y frigoríficos en Bera?',
@@ -583,7 +583,7 @@ export const ZONAS_SEO: Zona[] = [
       },
       {
         q: '¿Cuánto cuesta la visita en Santesteban?',
-        a: 'El diagnóstico y presupuesto es de 40 € + IVA. Para Santesteban puede aplicarse un suplemento de desplazamiento que te indicamos antes de confirmar, sin compromiso.',
+        a: 'El diagnóstico y presupuesto es de 45 € + IVA. Para Santesteban puede aplicarse un suplemento de desplazamiento que te indicamos antes de confirmar, sin compromiso.',
       },
       {
         q: '¿Reparáis electrodomésticos de todas las marcas en Santesteban?',
