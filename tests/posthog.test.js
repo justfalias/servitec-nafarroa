@@ -36,3 +36,7 @@ test('diferencia teléfono y WhatsApp sin incluir datos de contacto',async()=>{
   for(const href of ['tel:+34999999999','https://wa.me/34999999999?text=privado','https://wa.me.evil.test']){const target=new f.Element();target.link=new URL(href);f.listeners['doc:click']({target});}
   assert.equal(f.events.length,2);assert.deepEqual(f.events.map(e=>e[1].method),['phone','whatsapp']);assert.ok(!JSON.stringify(f.events).includes('999999999'));
 });
+
+test('aceptar después de un rechazo persistido reactiva la medición al inicializar',async()=>{
+  const f=fixture();f.state.out=true;f.state.allowed=true;f.listeners['analytics:consent-changed']();await settle();assert.equal(f.state.out,false);assert.equal(f.events[0][0],'$pageview');
+});

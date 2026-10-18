@@ -36,6 +36,12 @@ export function setupPostHog(key: string, hosts: string[], consent: () => boolea
         session_recording: { maskAllInputs: true, maskTextSelector: 'form', blockSelector: 'input[type="hidden"], input[type="file"]', recordCrossOriginIframes: false },
         before_send: event => permitted() ? event : null,
       });
+      // A previous visit may have persisted an opt-out before consent was granted again.
+      if (client?.has_opted_out_capturing() && permitted()) {
+        client.opt_in_capturing({ captureEventName: false });
+        client.capture('$pageview');
+        client.startSessionRecording();
+      }
     } catch (error) {
       console.warn('PostHog could not load', error);
     } finally {
