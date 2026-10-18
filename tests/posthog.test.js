@@ -7,7 +7,7 @@ const result = await build({entryPoints:[new URL('../src/lib/posthog.ts',import.
 function fixture(hostname='example.com') {
   const events=[]; const listeners={}; const state={allowed:false,init:[],out:false,stopped:false};
   class Element { closest(){return this.link;} }
-  const client={capture:(...args)=>events.push(args),stopSessionRecording:()=>{state.stopped=true;},opt_out_capturing:()=>{state.out=true;},has_opted_out_capturing:()=>state.out,opt_in_capturing:()=>{state.out=false;},startSessionRecording:()=>{state.stopped=false;}};
+  const client={capture:(...args)=>events.push(args),stopSessionRecording:()=>{state.stopped=true;},opt_out_capturing:()=>{state.out=true;},has_opted_out_capturing:()=>state.out,opt_in_capturing:()=>{state.out=false;events.push(['$pageview']);},startSessionRecording:()=>{state.stopped=false;}};
   const context={Element,location:{hostname},console,init:(key,config)=>{state.init.push({key,config});return client;},document:{addEventListener:(type,fn)=>{listeners['doc:'+type]=fn;}},window:{addEventListener:(type,fn)=>{listeners[type]=fn;}}};
   vm.runInNewContext(result.outputFiles[0].text,context);
   context.analytics.setupPostHog('project-key',['example.com'],()=>state.allowed);

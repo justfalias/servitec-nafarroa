@@ -13,7 +13,6 @@ export function setupPostHog(key: string, hosts: string[], consent: () => boolea
     if (client) {
       if (client.has_opted_out_capturing()) {
         client.opt_in_capturing({ captureEventName: false });
-        client.capture('$pageview');
         client.startSessionRecording();
       }
       return;
@@ -39,7 +38,6 @@ export function setupPostHog(key: string, hosts: string[], consent: () => boolea
       // A previous visit may have persisted an opt-out before consent was granted again.
       if (client?.has_opted_out_capturing() && permitted()) {
         client.opt_in_capturing({ captureEventName: false });
-        client.capture('$pageview');
         client.startSessionRecording();
       }
     } catch (error) {
